@@ -1,0 +1,192 @@
+.section3 {
+    background-color: rgb(255, 246, 237);
+    margin: 10rem 0 3rem 0;
+}
+
+.section3-top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -10rem;
+}
+
+.s3-flexItem {
+    width: 350px;
+}
+
+.s3-flexItem img {
+    width: 100%;
+    padding: 1rem;
+}
+
+/* bottom */
+
+.section3-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.s3-bot-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 3rem 0;
+    width: 400px;
+}
+
+.section3-bottom p {
+    width: 80%;
+    padding: 1rem;
+}
+
+.section3-bottom h1 {
+    color: rgb(24, 23, 23);  
+    padding: 1rem;  
+}
+
+.section3-bottom h2 {
+    font-size: 2rem;
+    padding: .7rem 1rem;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.705);
+    color: rgb(24, 23, 23);    
+}
+
+
+
+.component3 {
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 2rem 0;
+}
+
+.c3-left {
+    width: 480px;
+    margin: auto;
+    padding:  0 2rem;
+}
+
+.c3-left p {
+    padding: 1rem 0;
+    font-size: 16px;
+}
+
+.c3-left h1 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.c3-left h2 {
+    font-size: 1rem;
+    color: rgb(198, 134, 24);
+    letter-spacing: 5px;
+    padding: 1rem 0;
+}
+
+.c3-right {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.c3-card {
+    width: 320px;
+    height: 260px;
+    background-color: rgba(255, 255, 255, 0.377);
+    margin: 1rem;
+}
+
+.c3-card h1 {
+    padding: 1rem;
+}
+
+
+.c3-card p {
+    padding: 1rem;
+}
+
+.c3-card-flex {
+    display: flex;
+}
+
+.c3-card-flex h2 {
+    /* margin: auto; */
+    background-color: rgb(198, 134, 24);
+    padding: .5rem .7rem .1rem .7rem;
+    border-radius: 5rem;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.c3-card-flex h1 {
+    font-size: 1.1rem;
+}
+
+
+.c3-link p {
+    padding: 0 1rem;
+    color: rgb(198, 134, 24);
+
+}
+
+@media  screen and (max-width:1450px) {
+    .c3-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .c3-left h1 {
+        font-size: 2rem;
+    }
+
+    .c3-right {
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .c3-link p {
+        padding: 0 1rem;
+    }
+    
+    .c3-card-flex {
+        justify-content: center;
+    }
+
+}
+
+@media  screen and (max-width: 940px) {
+    .c3-card {
+        width: 100%;
+        text-align: center;
+        height: 180px;
+    }
+
+
+    .c3-card-flex {
+        display: inline-block;
+    }
+
+    .c3-card-flex h2 {
+        padding: 0;
+        color: rgb(198, 134, 24);
+        font-size: 2.5rem;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    
+}
+
+@media  screen and (max-width: 700px) {
+    .s3-flexItem {
+        width: 100vw;
+    }
+}
+
+

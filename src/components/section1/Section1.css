@@ -1,0 +1,135 @@
+
+.section1-content {
+    display: flex;
+}
+
+.section1-box {
+    width: auto;
+    height: auto;
+    padding-top: 2rem;
+
+}
+
+.section1-box1 {
+    background-color: #6D4321;
+}
+
+.section1-box2 {
+    background-color: #E2AB7F;
+}
+
+.section1-box3 {
+    background-color: #dfdad6;
+}
+
+
+.section1-flexBox {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: auto;
+    gap: 1rem;
+    text-align: center;
+    width: 350px;
+}
+
+
+.section1-flexBox .title {
+    width:max-content;
+    text-align: center;
+}
+
+.section1-icon {
+    color: white; 
+    font-size: 2.2rem;
+    margin: auto;
+}
+
+.section1-box h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.section1-box p {
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.section1-caption {
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.section1-box button {
+    color: white;
+    padding: 1rem 2rem;
+    background-color: #E2AB7F;
+    border-radius: 5px;
+    border: none;
+    font-size: .8rem;
+    letter-spacing: 3px;
+    margin: 2rem 0;
+}
+
+.section1-caption2 button{
+    background-color: #aa764c;
+}
+
+.section1-caption1 button:hover{
+    background-color: #41220a;
+}
+
+.section1-caption2 button:hover{
+    background-color: #41220a;
+}
+
+.section1-caption3 button:hover{
+    background-color: #41220a;
+}
+
+.section1-flexItem3 h1 {
+    color: black;
+}
+
+.section1-flexItem3 h3 {
+    color: #6D4321;
+}
+
+.section1-caption3 p {
+    color: #6D4321;
+}
+
+@media screen and (max-width:1140px)  {
+
+    .section1-content {
+        flex-wrap: wrap;
+    }
+
+    .section1-icon {
+        width: 100%;
+    }
+
+    .section1-flexBox {
+        flex-wrap: wrap;
+    }
+
+    .section1-flexItem1 {
+        width: 100%;
+    }
+
+    .section1-flexBox {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding: .8rem 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .section1-box button {
+        margin: 1rem 0;
+    }
+
+}

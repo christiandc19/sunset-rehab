@@ -1,0 +1,13 @@
+
+
+.conditions-props img {
+width: 100px;
+border: 2px solid #783B04;
+border-radius: 12rem;
+z-index: -1;
+}
+
+.conditions-props {
+justify-content: center;}
+
+

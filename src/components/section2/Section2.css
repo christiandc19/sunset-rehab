@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.wrapper1 {
+    padding: 3rem 0 6rem  0;
+    /* background: #F0EFE3; */
+}
+
+.wrapper-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper-content-left {
+    width: 50%;
+    text-align: center;
+}
+
+.wrapper-content-left img {
+    width: 80%;
+}
+
+.wrapper-content-right {
+    width: 600px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+
+.wrapper-content-right h2 {
+    font-size: 3rem;
+    color: #E2AB7F;
+}
+
+.wrapper-content-right h1 {
+    text-transform: uppercase;
+    color: #6D4321;
+    font-size: 1rem;
+    letter-spacing: 8px; 
+}
+
+
+
+
+@media screen and (max-width:1250px)  {
+    .wrapper-content-right {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .wrapper-content-right h1, h2, p {
+        text-align: center;
+    }
+
+    .wrapper-content-right h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:940px) {
+    .wrapper-content-left {
+        width: 100vw;
+    }
+    .wrapper-content-left img {
+        padding: 2rem;
+    }
+}
+
+
+/* .wrap {
+  display: flex;
+  flex-wrap: wrap-reverse ;
+  justify-content: space-evenly;
+  margin: 5rem 0 0 0;
+  padding: 3rem 0;
+}
+
+.box {
+    height: auto;
+    width: 600px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.box-right {
+    width: 500px;
+    text-align: center;
+}
+
+.box-right img {
+    width: 100%;
+}
+
+
+.box-right2 {
+    width: 500px;
+    text-align: center;
+    display: none;
+}
+
+.box-right2 img{
+    width: 100%;
+}
+
+
+.wrap .header {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box img {
+    border-radius: 10px;
+}
+
+.wrap p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.box-btn {
+    text-align: center;
+} */
+
+
+/* MEDIA QUERIES */
+/* 
+@media screen and (max-width:940px) {
+
+
+
+
+    .wrap p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left h1 {
+        font-size: 2rem;
+    }
+
+.left button {
+    margin: 1rem auto;
+}
+
+.box-right {
+    display: none;
+}
+
+.box-right2 {
+    display: block;
+}
+
+} */
+

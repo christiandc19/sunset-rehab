@@ -1,0 +1,46 @@
+.conditions {
+    padding: 3rem 0;
+    background: #ecece4;
+
+}
+
+.ConditionsLogosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 1rem;
+    padding: 2rem 0rem 2rem 0;
+}
+
+.condition-icons-header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.condition-icons-header h1 {
+    padding: 1rem;
+    color: rgb(65, 66, 66);
+}
+
+.condition-icons-header p {
+    font-size: 18px;
+}
+
+.conditions-icons {
+text-align: center;
+}
+
+.conditions-icons button {
+    background-color: #783B04;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    color: white;
+    margin-top: -3rem;
+    border: none;
+    width: 12rem;
+}
+
+.conditions-icons button:hover {
+    background-color: #9e5b1d;
+
+}
