@@ -1,0 +1,108 @@
+
+.os1 {
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
+  }
+
+.os1-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem 0;
+}
+
+.os1-left {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.os1-left h1 {
+    font-size: 2rem;
+    padding: .5rem 0;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
+}
+
+.os1-left h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.os1-left p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.os1-right {
+    padding: 1rem;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.os1-images {
+    width: 100%;;
+    margin: auto;
+    position: relative;
+}
+
+.os1-right img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.os1-accent {
+    position: absolute;
+    width: 30%;
+    top: 0%;
+    left: 0;
+}
+
+.os1-accent2 {
+    position: absolute;
+    width:100%;
+    bottom: -20%;
+    left: 0;
+    opacity: 0.8;
+}
+
+
+.os1-accent img {
+    width: 100%;
+}
+
+@media screen and (max-width:940px) {
+    .os1-left {
+        width: 100%;
+    }
+
+    .os1-flex {
+        flex-wrap: wrap;
+    }
+
+    .os1-subheader {
+        width: 100%;
+    }
+
+    .os1-left h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+    .os1-left h2 {
+    text-align: center;
+}
+
+.os1-left p {
+    font-size: 16px;
+}
+
+}
+
+@media screen and (max-width:700px) {
+    .os1-header h1 {
+        font-size: 1.2rem;
+    }
+
+  }

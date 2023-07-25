@@ -1,0 +1,69 @@
+.metric {
+    background-color: rgb(245, 240, 240);
+    padding: 5rem 0;
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover;
+}
+
+
+.metric-header {
+    margin: auto;
+    text-align: center;
+}
+
+.metric-header h1 {
+  font-size: 2rem;
+  padding: .5rem 0;
+  text-align: center;
+  font-family: 'Lilita One', cursive;
+}
+
+
+.metric-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.metric-flexItem {
+    width: 250px;
+}
+
+.metric-rate {
+  text-align: center;
+  margin: auto;
+}
+
+.metric-rate p {
+  padding: 0 1rem;
+  color: rgb(29, 28, 28);
+}
+
+.metric-rate h4 {
+  font-size: 4rem;
+  color: var(--primary-color);
+  padding: 0;
+}
+
+.metric-rate h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+
+.metric-rate h3:after {
+	height: 4px;
+	width: 60%;
+	content: "";
+	background: var(--primary-color);
+	display: block;
+	transition: width 0.4s ease;
+	transition-delay: 0.8s;
+  margin: auto;
+}
+
+
+

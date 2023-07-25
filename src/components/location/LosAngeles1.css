@@ -1,0 +1,20 @@
+.losAngeles1 {
+    padding: 3rem 0;
+    background-color: white;
+}
+
+.losAngeles1-content {
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width:940px) {
+    .losAngeles1-content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .losAngeles1-content h1 {
+        text-align: center;
+    }
+}

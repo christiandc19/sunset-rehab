@@ -1,0 +1,263 @@
+.opioidSection1 {
+    background-color: rgb(245, 240, 240);
+    padding: 3rem 0;
+    background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover;
+}
+
+
+
+/* OPIOID SECTION 1 */
+
+
+.opioidSection1-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.opioidSection1-left {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.opioidSection1-left h1 {
+    font-size: 2rem;
+    padding: .5rem 0;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
+}
+
+.opioidSection1-left h2 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+
+
+.opioidSection1-left p {
+    font-size: 18px;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+
+.opioidSection1-right {
+    padding: 1rem;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+}
+
+.opioidSection1-images {
+    width: 100%;;
+    margin: auto;
+    position: relative;
+}
+
+.opioidSection1-right img {
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.opioidSection1-accent {
+    position: absolute;
+    width: 40%;
+    top: 0%;
+    left: 0;
+}
+
+.opioidSection1-accent2 {
+    position: absolute;
+    width:100%;
+    bottom: -5rem;
+    opacity: 0.8;
+}
+
+.opioidSection1-accent img {
+    width: 100%;
+}
+
+
+@media screen and (max-width:940px) {
+    .opioidSection1-left {
+        width: 90%;
+    }
+
+    .opioidSection1-flex {
+        flex-wrap: wrap;
+    }
+
+    .opioidSection1-subheader {
+        width: 90%;
+    }
+
+    .opioidSection1-right {
+        width: 100%;
+    }
+
+    .opioidSection1-left h2 {
+        text-align: center;
+    }
+
+    .opioidSection1-left h1 {
+        text-align: center;
+    }
+
+    .opioidSection1-left p {
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+/* OPIOID SECTION 2 */
+
+.opioidSection1B-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.opioidSection1B-right {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.opioidSection1B-right h1 {
+    font-size: 2rem;
+    padding: .5rem 0;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
+}
+
+.opioidSection1B-right p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.opioidSection1B-left {
+    padding: 1rem;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.opioidSection1B-images {
+    width: 100%;;
+    margin: auto;
+    position: relative;
+}
+
+.opioidSection1B-left img {
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.opioidSection1B-accent {
+    position: absolute;
+    width: 40%;
+    top: 0%;
+    left: 0;
+}
+
+.opioidSection1B-accent2 {
+    position: absolute;
+    width:100%;
+    bottom: -15%;
+    left: 0;
+    opacity: 0.8;
+}
+
+.opioidSection1B-accent img {
+    width: 100%;
+}
+
+
+@media screen and (max-width:940px) {
+    .opioidSection1B-flex {
+        padding: 5rem 0 3rem 0 ;
+    }
+
+    .opioidSection1B-right {
+        width: 90%;
+    }
+
+    .opioidSection1B-left {
+        width: 700px;
+    }
+
+    .opioidSection1B-flex {
+        flex-wrap: wrap-reverse;
+    } 
+
+    .opioidSection1B-flex {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: -2rem;
+    }
+
+    .opioidSection1B-right p {
+        text-align: center;
+    }
+
+    .opioidSection1B-right h1 {
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

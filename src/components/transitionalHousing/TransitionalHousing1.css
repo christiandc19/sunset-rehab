@@ -1,0 +1,63 @@
+.housing1 {
+    background-color: white;
+    padding: 5rem 0;
+}
+
+.housing1-header h1{
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.housing1-flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.housing1-icon {
+    width: 40%;
+    margin: auto;
+}
+
+.housing1-icon img {
+    width: 100%;
+    border-radius: 3rem;
+}
+
+.housing1-caption {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.housing1-caption h1 {
+    padding: .8rem 0;
+    font-size: 3rem;
+}
+
+.housing1-caption p {
+    font-size: 16px;
+}
+
+@media screen and (max-width:940px) {
+    .housing1-caption {
+        width: 90%;
+        padding: 0 1rem;
+    }
+
+    .housing1-caption h1 {
+        text-align: center;
+    }
+
+    .housing1-icon {
+        margin-bottom: -3rem;
+    }
+    
+}

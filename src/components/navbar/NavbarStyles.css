@@ -3,51 +3,46 @@
 
 .navbar {
     width: 100%;
-    height: 88px;
+    height: auto;
+    position:  absolute;
     z-index: 10;
-    background: #1b1b1b00;
-    position: absolute;
-    text-align: center;
+    background: #1b1a1a62;
 }
 
-.navbar img {
-  padding: .5rem;
-
-}
-
-
-.nav-box {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    margin-top: -2rem;
-}
-
-.nav-box ul {
-  margin: auto;
+.navbar .navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+padding: 0 2rem;
 }
 
 .navbar-logo {
-  z-index: 9999999;
   width: 120px;
-  margin: auto;
+  padding: .5rem;
 }
-
 .navbar-logo img {
   width: 100%;
 }
 
 .navbar .icon {
   font-size: 1.4rem;
-  color: #fff;
+  color: rgb(225, 228, 235);
 }
 
 .navbar .logo .icon {
     font-size: 3rem;
     margin-right: 1rem;
-    color: var(--primary-color);
+    color: rgb(215, 218, 224);
+}
+
+.nav-btn button {
+  background-color: rgb(54, 97, 190);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: .7rem 2.5rem;
 }
 
 .hamburger {
@@ -59,30 +54,27 @@
     height: 100%;
     align-items: center;
     display: flex;
-    padding: 1rem;
+    margin: auto;
 }
+
 
 .navbar li {
     width: max-content;
-    padding: .3rem 1rem;
+    padding: .5rem 1rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    text-transform: uppercase;
 }
-
 
 .navbar li a {
-  color: rgb(243, 237, 237);
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-}
-
-.navbar li a:hover {
-  color: rgb(250, 147, 13);
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(224, 210, 210);
+    letter-spacing: 1px;
 }
 
   .menu-item .sub__menus li a {
-    color: #000000;
+    color: #353535;
     font-size: 13px;
     padding: -1rem ;
   }
@@ -91,15 +83,6 @@
     color: rgb(255, 123, 0) !important;
   }
 
-  li .submenu-header {
-    font-size: 14px;
-    color: rgb(36, 131, 27);
-    font-weight: bolder;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-
-
 /* -----------------------------------------------------> SUB MENU */
 .sub__menus {
     position: absolute;
@@ -107,14 +90,12 @@
     background: white;
     border: 1px solid lavender;
     border-radius: 10px;
-    width: 300px;
+    width: 240px;
     left: -17px;
     padding: 2px 0 0 0;
     margin-top: 6px;
     z-index: 1000;
   }
-
-
 
   /* -----------------------------------------------------> DROPDOWN ARROW */
   .sub__menus__arrows {
@@ -125,25 +106,19 @@
     padding-top: 0px;
     position: absolute;
     top: 10px;
+    display: none;
   }
 
 
-
-
+  
 @media screen and (max-width: 940px) {
-
-
-    .nav-box {
-      justify-content: center;
-    }
-
     .navbar .hamburger {
         display: block;
-        z-index: 25;
+        z-index: 15;
     }
 
-    .navbar li a {
-      color: rgb(250, 250, 250);
+    .nav-btn {
+      display: none;
     }
 
     .navbar .nav-menu {
@@ -153,11 +128,9 @@
         height: 100vh;
         top: 0;
         left:-100%;
-        align-items: center;
         justify-content: center;
-        background: rgb(0, 0, 0);
+        background: var(--primary-color);
         transition: 0.5s ease-in;
-        color: white;
     }
 
     .navbar .active {
@@ -165,7 +138,7 @@
     }
 
     .navbar li {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .navbar button {
@@ -186,6 +159,10 @@
 
       .sub__menus {
         width: 250px;
+      }
+
+      .navbar .navbar-container {
+        justify-content: space-between;
       }
 
 }

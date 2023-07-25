@@ -1,22 +1,15 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade';
-
+import Splatter3 from '../../assets/splatter3.png'
 import './Opioid.css'
-
-import Wave from '../../assets/waves.svg'
-
-
 const Opioid = () => {
     return (
-        <div className='opioid submenu'>
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
+        <div className='opioid container'>
+
                 <div className="opioid-content">
-                    <Fade top>
-                    <h3>- ADDICTION</h3>
-                    <h1>OPIOID</h1>
-                    </Fade>
+                    <div className='opioid-content-img'>
+                        <img src={ Splatter3 } alt="individual therapy" loading="lazy"/>
+                    </div>
+                    <h1>Opioid</h1>
             </div>
         </div>
     )

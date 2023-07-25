@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.wws {
+    width: 100%;
+    background-color: white;
+    z-index: -1;
+  }
+  
+
+
+.wws-content {
+    top: 40%;
+    padding: 3rem 1rem;
+    margin: auto;
+    z-index: 2;
+}
+
+.wws-content-img {
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.wws-content img {
+    width: 100%;
+}
+
+.wws h1 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    position: relative;
+}
+
+.wws-locations {
+    padding: 3rem 0;background-color: white;
+}
+
+.wws-locations h2 {
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+.wws h1 {
+    font-size: 2rem;
+}
+
+.wws-content {
+    top: 40%;
+    padding: 3rem 1rem;
+    margin: auto;
+    z-index: 2;
+}
+}
+
+@media screen and (max-width:700px) {
+    .wws-content-img {
+        width: 100%;
+        padding: 2rem;
+}
+}

@@ -1,0 +1,98 @@
+.section4 {
+    background-color: white;
+}
+
+.section4-content {
+    padding: 3rem 0;
+}
+
+.section4-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+.section4-right {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.section4-right h1 {
+    font-size: 2rem;
+    font-size: 2rem;
+    padding: .5rem 0;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
+}
+
+.section4-right p {
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.section4-left {
+    padding: 1rem;
+    margin: auto;
+    width: 70%;
+    height: 100%;
+}
+
+.section4-images {
+    width: 100%;;
+    margin: auto;
+    position: relative;
+}
+
+.section4-left img {
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.section4-accent {
+    position: absolute;
+    width: 40%;
+    top: 0%;
+    right: 0;
+}
+
+.section4-accent2 {
+    position: absolute;
+    width:100%;
+    bottom: -5%;
+    left: 0;
+    opacity: 0.8;
+}
+
+
+.section4-accent img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:940px) {
+    .section4-right {
+        width: 90%;
+    }
+
+    .section4-left {
+        width: 700px;
+    }
+
+    .section4-flex {
+        flex-wrap: wrap;
+    } 
+}
+
+@media screen and (max-width:700px) {
+
+}

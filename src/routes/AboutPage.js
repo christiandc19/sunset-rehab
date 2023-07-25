@@ -2,16 +2,19 @@ import React from 'react'
 
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
-import About from '../components/about/About'
+import TEAM from '../components/about/About'
+import TEAMSECTION from '../components/about/About1'
 
-const AboutPage = () => {
-    return (
-        <>
-           <Navbar /> 
-           <About />
-           <Footer />
-        </>
-    )
+
+const About = () => {
+  return (
+    <>
+    <Navbar /> 
+    <TEAM />
+    <TEAMSECTION />
+    <Footer />
+     </>
+  )
 }
 
-export default AboutPage
+export default About
