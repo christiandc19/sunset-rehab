@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.TherapySA {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: #1f1e1ec4;
+
+}
+  
+  .TherapySA:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/Section4-image1-min.jpg') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.TherapySA .content {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    top: 10%;
+    padding: 2rem 0;
+}
+
+.box-icon {
+    font-size: 6rem;
+    color: rgb(139, 85, 4);
+    padding: 1rem 0;
+}
+
+
+/* LEFT */
+
+.TherapySA .TherapySA-left {
+    width: 500px;
+    margin: auto;
+}
+
+.TherapySA .left-content {
+    top: 15%;
+
+}
+
+.TherapySA .TherapySA-left h1{
+    color: rgb(201, 197, 197);
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.TherapySA .TherapySA-left p {
+    color: rgb(201, 197, 197);
+    font-size: 18px;
+    text-align: left;
+}
+
+
+/* RIGHT */
+
+.box-icon {
+    width: 100%;
+}
+
+ .TherapySA-right {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.TherapySA-right .box {
+    height: 320px;
+    width: 350px;
+    background-color: rgba(24, 23, 23, 0.247);
+}
+
+
+/* box 1 */
+
+.box1 .box-content1 h1 {
+    color: rgb(201, 197, 197);
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.box1 .box-content1 p {
+    color: rgb(201, 197, 197);
+    text-align: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* box 2 */
+
+.box2 .box-content2 h1 {
+    color: rgb(201, 197, 197);
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.box2 .box-content2 p {
+    color: rgb(201, 197, 197);
+    text-align: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* box 3 */
+
+.box3 .box-content3 h1 {
+    color: rgb(201, 197, 197);
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.box3 .box-content3 p {
+    color: rgb(201, 197, 197);
+    text-align: center;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+/* box 4 */
+
+.box4 .box-content4 h1 {
+    color: rgb(201, 197, 197);
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.box4 .box-content4 p {
+    color: rgb(201, 197, 197);
+    text-align: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.hide-btn {
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .TherapySA .TherapySA-left {
+        width: 100%;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .hide-btn {
+        display: block;
+        padding: 2rem 0;
+    }
+
+
+    .TherapySA .content {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .TherapySA .content p {
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+}
+
+
+@media screen and (max-width:940px) {
+
+
+    .TherapySA-right  .box{
+        width: 90vw;
+    }
+    
+    .TherapySA .TherapySA-left h1{
+        font-size: 2rem;
+    }
+
+    .TherapySA .TherapySA-left {
+        width: 90vw;
+    }
+
+    .TherapySA .TherapySA-right {
+        width: 90%;
+    }
+
+
+    
+}
+

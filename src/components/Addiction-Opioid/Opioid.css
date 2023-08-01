@@ -1,41 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
+
 .opioid {
     width: 100%;
-    background-color: white;
+    height: 80vh;
+    background: #17362da4;
+    position: relative;
+  }
+  
+  .opioid:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
+    height: 80vh;
+    width: 100%;
     z-index: -1;
   }
   
 
-
-.opioid-content {
-    top: 40%;
-    padding: 3rem 1rem;
-    margin: auto;
-    z-index: 2;
+.opioid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.opioid-content-img {
-    width: 60%;
-    margin: auto;
+.opioid .opioid-content {
+    display: block;
     position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-}
-
-.opioid-content img {
-    width: 100%;
+    top: 30%;
+    padding: 1rem;
 }
 
 .opioid h1 {
-    font-size: 5rem;
-    color: rgb(247, 245, 245);
-    text-align: center;
-    position: relative;
-    font-family: 'Indie Flower', cursive;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
+.opioid h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* MEDIA QUERIES */
 
@@ -45,17 +51,10 @@
     font-size: 2rem;
 }
 
-.opioid-content {
-    top: 40%;
-    padding: 3rem 1rem;
-    margin: auto;
-    z-index: 2;
-}
+.opioid h3 {
+    font-size: 1rem;
 }
 
-@media screen and (max-width:700px) {
-    .opioid-content-img {
-        width: 100%;
-        padding: 2rem;
-}
+
+
 }

@@ -4,45 +4,41 @@
 .navbar {
     width: 100%;
     height: auto;
-    position:  absolute;
     z-index: 10;
-    background: #1b1a1a62;
+    background: #270f0142;
+    position: absolute;
+    text-align: center;
 }
 
-.navbar .navbar-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-padding: 0 2rem;
+
+
+.nav-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
 }
+
 
 .navbar-logo {
-  width: 120px;
-  padding: .5rem;
+  z-index: 9999999;
+  width: 150px;
 }
+
 .navbar-logo img {
   width: 100%;
 }
 
 .navbar .icon {
   font-size: 1.4rem;
-  color: rgb(225, 228, 235);
+  color: #fff;
 }
 
 .navbar .logo .icon {
     font-size: 3rem;
     margin-right: 1rem;
-    color: rgb(215, 218, 224);
-}
-
-.nav-btn button {
-  background-color: rgb(54, 97, 190);
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  padding: .7rem 2.5rem;
+    color: var(--primary-color);
 }
 
 .hamburger {
@@ -54,27 +50,30 @@ padding: 0 2rem;
     height: 100%;
     align-items: center;
     display: flex;
-    margin: auto;
+    padding: 1rem;
 }
-
-
 .navbar li {
     width: max-content;
-    padding: .5rem 1rem;
+    padding: .3rem 1rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
+    font-size: 14px;
 }
 
+
 .navbar li a {
-    font-weight: 600;
-    font-size: 16px;
-    color: rgb(224, 210, 210);
-    letter-spacing: 1px;
+  color: rgb(224, 226, 225);
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.navbar li a:hover {
+  color: rgb(21, 111, 214);
 }
 
   .menu-item .sub__menus li a {
-    color: #353535;
+    color: #000000;
     font-size: 13px;
     padding: -1rem ;
   }
@@ -83,6 +82,15 @@ padding: 0 2rem;
     color: rgb(255, 123, 0) !important;
   }
 
+  li .submenu-header {
+    font-size: 14px;
+    color: rgb(36, 131, 27);
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
 /* -----------------------------------------------------> SUB MENU */
 .sub__menus {
     position: absolute;
@@ -90,12 +98,14 @@ padding: 0 2rem;
     background: white;
     border: 1px solid lavender;
     border-radius: 10px;
-    width: 240px;
+    width: 300px;
     left: -17px;
     padding: 2px 0 0 0;
     margin-top: 6px;
     z-index: 1000;
   }
+
+
 
   /* -----------------------------------------------------> DROPDOWN ARROW */
   .sub__menus__arrows {
@@ -106,19 +116,24 @@ padding: 0 2rem;
     padding-top: 0px;
     position: absolute;
     top: 10px;
-    display: none;
   }
 
 
-  
-@media screen and (max-width: 940px) {
+
+
+@media screen and (max-width: 1200px) {
+
+  .nav-box {
+    justify-content: space-between;
+}
+
     .navbar .hamburger {
         display: block;
         z-index: 15;
     }
 
-    .nav-btn {
-      display: none;
+    .navbar li a {
+      color: rgb(250, 250, 250);
     }
 
     .navbar .nav-menu {
@@ -128,9 +143,11 @@ padding: 0 2rem;
         height: 100vh;
         top: 0;
         left:-100%;
+        align-items: center;
         justify-content: center;
-        background: var(--primary-color);
+        background: rgb(0, 0, 0);
         transition: 0.5s ease-in;
+        color: white;
     }
 
     .navbar .active {
@@ -138,7 +155,7 @@ padding: 0 2rem;
     }
 
     .navbar li {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .navbar button {
@@ -159,10 +176,6 @@ padding: 0 2rem;
 
       .sub__menus {
         width: 250px;
-      }
-
-      .navbar .navbar-container {
-        justify-content: space-between;
       }
 
 }

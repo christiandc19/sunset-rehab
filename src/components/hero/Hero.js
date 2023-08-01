@@ -1,29 +1,42 @@
 import React from 'react'
-import './Hero.css'
+import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-// import { Link } from 'react-router-dom'
-// import { Link as LinkRoll } from 'react-scroll'
+import './Hero.css'
 
-
+import BgVideo from '../../assets/VidBg.mp4'
 
 
 const Hero = () => {
     return (
 <>        
-<div className='hero'>
-    <div className="hero-container">
 
-        <div className="content">
-                <Fade left>
-                <h1>Sunset Rehab</h1>
-                </Fade>
-                <Fade right>
-                <p>Find your happiness and learn to put it first.</p>
-                </Fade>
+        <div className='hero overlay'>
+            <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
+
+
+
+            <div className="hero-container">
+
+                <div className="content">
+                        <h1>Sunset Rehab</h1>
+                    <Fade left>
+                        <h2>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
+                    </Fade>
+                        <br />
+                        <div className='hero-btn'>
+                        <Link to="/contact">
+                        <button>Contact Us</button>
+                    </Link>
+                    </div>
+                    <br />
+                    <Fade bottom>
+                        <p><i>"Find your happiness and learn to put it first."</i></p>
+                    </Fade>
+                </div>
+            </div>
         </div>
 
-    </div>
-</div>
+
 </>
 
     )

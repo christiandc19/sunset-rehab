@@ -1,98 +1,161 @@
-.section1 {
-    background-color: rgb(255, 255, 255);
-    padding: 5rem 0;
-    /* background: url('../../assets/hero-bg-1.jpg') no-repeat center top/cover; */
-    position: relative;
-    z-index: 1;
-}
-
-
-.section1-header {
-    width: 70%;
-    margin: auto;
-}
-
-.section1-header h1 {
-    text-align: center;
-    padding: 1rem 0;
-    font-size: 3rem;
-}
 
 .section1-content {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding: 3rem 0;
-}
-
-.section1-card-caption {
+    justify-content: center;
+    padding: 1rem;
     margin: auto;
 }
 
-.section1-card-caption h1 {
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 1rem 0;
+.section1-box {
+    width: auto;
+    height: auto;
+    padding-top: 2rem;
+
 }
 
-.section1-card {
+.section1-box1 {
+    background-color: #6D4321;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    width: 32%;
+}
+
+.section1-box2 {
+    background-color: #E2AB7F;
+    width: 32%;
+
+}
+
+.section1-box3 {
+    background-color: #dfdad6;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 32%;
+
+}
+
+
+.section1-flexBox {
+    justify-content: center;
     text-align: center;
-    background-color: white;
-    width: 300px;
-    height: 230px;
-    border-radius: 1rem;
-    box-shadow: 10px 14px 15px -14px rgba(0,0,0,0.75);
-    transition: border-radius .5s;
-}
-
-.section1-card:hover {
-    border-top-left-radius: 4rem;
-    border-bottom-right-radius: 4rem;
-}
-
-
-.section1-card-img {
-    width: 180px;
-    margin: auto;
-}
-
-
-.section1-card-img img {
     width: 100%;
 }
 
-.section1-card-caption {
+
+.section1-flexBox .title {
+    text-align: center;
+    
+}
+
+.section1-icon {
+    color: white; 
+    font-size: 2.2rem;
     margin: auto;
 }
 
-.rainbow img {
-    width: 50%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+.section1-box h1 {
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
 }
-@media screen and (max-width:700px) {
-    .section1-card {
+
+.section1-box p {
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.section1-caption {
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.section1-box button {
+    color: white;
+    padding: 1rem 2rem;
+    background-color: #E2AB7F;
+    border-radius: 5px;
+    border: none;
+    font-size: .8rem;
+    letter-spacing: 3px;
+    margin: 1rem 0;
+}
+
+.section1-caption2 button{
+    background-color: #aa764c;
+}
+
+.section1-caption1 button:hover{
+    background-color: #41220a;
+}
+
+.section1-caption2 button:hover{
+    background-color: #41220a;
+}
+
+.section1-caption3 button:hover{
+    background-color: #41220a;
+}
+
+.section1-flexItem3 h1 {
+    color: black;
+}
+
+.section1-flexItem3 h3 {
+    color: #6D4321;
+}
+
+.section1-caption3 p {
+    color: #6D4321;
+}
+
+@media screen and (max-width:940px)  {
+
+    .section1-content {
+        flex-wrap: wrap;
+    }
+
+    .section1-icon {
+        width: 100%;
+    }
+
+    .section1-flexBox {
+        flex-wrap: wrap;
+    }
+
+    .section1-flexItem1 {
+        width: 100%;
+    }
+
+    .section1-flexBox {
         display: flex;
-    }
-
-    .section1-card {
+        justify-content: center;
+        gap: 1rem;
+        padding: .8rem 0;
+        margin: auto;
         text-align: center;
-        background-color: white;
-        border-radius: 1rem;
-        box-shadow: 10px 14px 15px -14px rgba(0,0,0,0.75);
     }
 
-}
-
-
-@media screen and (max-width:940px) {
-    .section1-header h1 {
-        text-align: center;
-        padding: 1rem 0;
-        font-size: 2rem;
+    .section1-box button {
+        margin: 1rem 0;
     }
+
+    .section1-box1 {
+        border-bottom-left-radius: 0rem;
+        border-top-right-radius: 1rem;
+        width: 100%;
+    }
+
+    .section1-box2 {
+        width: 100%;
+    }
+    
+    .section1-box3 {
+        border-top-right-radius: 0rem;
+        border-bottom-left-radius: 1rem;
+        width: 100%;
+    }
+
 }

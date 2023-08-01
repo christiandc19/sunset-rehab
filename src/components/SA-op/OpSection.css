@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.op-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5rem 1rem;
+}
+
+.op-wrap-left {
+    width: 600px;
+    margin: auto;
+
+}
+
+.op-wrap-left h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(15, 15, 15);
+    padding: 1rem;
+}
+
+.op-wrap-right {
+    width: 600px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+
+.op-wrap-right p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+
+
+
+/* WRAP 2 */
+
+
+.op-wrap2 {
+    background: linear-gradient(to top, #00000086, #00000094), url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
+    padding: 10rem 0;
+}
+
+  .op-wrap2 h1 {
+    font-size: 2rem;
+    color: rgb(214, 214, 214);
+    text-align: center;
+}
+
+.op-wrap2 p {
+    color: rgb(214, 214, 214);
+    font-size: 16px;
+}
+
+.op-content {
+    padding: 0 2rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1200px) {
+    .op-wrap-right {
+        width: 90%;
+    }
+
+
+
+}
+
+
+

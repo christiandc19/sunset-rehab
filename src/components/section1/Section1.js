@@ -1,71 +1,120 @@
-import React from 'react'
-import './Section1.css'
+import React from "react";
+import "./Section1.css";
+import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
 
-import Employment from '../../assets/employment-icon.png'
-import Housing from '../../assets/housing-icon.png'
-import Other from '../../assets/other-resources-icon.png'
-
-import { Link as LinkRoll } from 'react-scroll'
-import { Link } from 'react-router-dom';
-
+import { BiBrain } from "react-icons/bi";
+import { TbPill } from "react-icons/tb";
+import { MdOutlineWorkOutline } from "react-icons/md";
 
 const Section1 = () => {
   return (
     <>
-      <div className='section1'>
-                    <div className='section1-header'>
-                    <h1>Providing better resources to help you move forward with whatever comes next.</h1>
-                    </div>
-                      
+      <div className="section1 container">
 
-        <div className='section1-content'>
+        <div className="section1-content">
 
-              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/employment">
-                <div className='section1-card'>
-                    <div className='section1-card-img'>
-                        <img src={ Employment } alt="hand shake" loading="lazy"/>
-                    </div>
-                    <div className='section1-card-caption'>
-                        <h1>Empoloyment Assitance</h1>
-                    </div>
-                </div>
-              </Link>
+          <div className="section1-box section1-box1">
+            <div className="section1-flexBox section1-flexItem1">
+              <div className="section1-icon">
+                <h3>
+                  <BiBrain />
+                </h3>
+              </div>
+              <div className="title">
+                <h1>Mental Health Treatment</h1>
+              </div>
+            </div>
+            <div className="section1-caption section1-caption1">
+              <p>
+                Depending on your needs, we offer treatment for co-occurring
+                disorders that can address both mental health and addiction
+                disorders at the same time.
+              </p>
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/mental-health">
+                  <button>LEARN MORE</button>
+                </Link>
               </LinkRoll>
+            </div>
+          </div>
 
-              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/transitional-housing">
-                <div className='section1-card'>
-                    <div className='section1-card-img'>
-                        <img src={ Housing } alt="Transitional Housing" loading="lazy"/>
-                    </div>
-                    <div className='section1-card-caption'>
-                        <h1>Transitional Housing</h1>
-                    </div>
-                </div>
-              </Link>
+
+
+          <div className="section1-box section1-box2">
+            <div className="section1-flexBox section1-flexItem2">
+              <div className="section1-icon">
+                <h3>
+                  <TbPill />
+                </h3>
+              </div>
+              <div className="title">
+                <h1>Substance Abuse Treatment</h1>
+              </div>
+            </div>
+
+            <div className="section1-caption section1-caption2">
+              <p>
+                No matter what type of addiction or mental health condition you
+                are dealing with, there’s something for everyone at Sunset Rehab.
+              </p>
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/substance-abuse">
+                  <button>LEARN MORE</button>
+                </Link>
               </LinkRoll>
+            </div>
+          </div>
 
-              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/other-resources">
-                <div className='section1-card'>
-                    <div className='section1-card-img'>
-                        <img src={ Other } alt="Other Resources" loading="lazy"/>
-                    </div>
-                    <div className='section1-card-caption'>
-                        <h1>Other Resources</h1>
-                    </div>
-                </div>
-              </Link>
+          <div className="section1-box section1-box3">
+            <div className="section1-flexBox section1-flexItem3">
+              <div className="section1-icon">
+                <h3>
+                  <MdOutlineWorkOutline />
+                </h3>
+              </div>
+              <div className="title">
+                <h1>Job Assistance Program</h1>
+              </div>
+            </div>
+
+            <div className="section1-caption section1-caption3">
+              <p>
+                We offer a variety of employment tools and resources to help you
+                land on your feet and get hired at a great company in recovery.
+              </p>
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/jobs">
+                  <button>LEARN MORE</button>
+                </Link>
               </LinkRoll>
-
-
-
+            </div>
+          </div>
         </div>
-
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Section1
+export default Section1;

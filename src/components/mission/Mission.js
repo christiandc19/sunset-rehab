@@ -1,31 +1,27 @@
-import React from "react";
-import Splatter3 from '../../assets/splatter2.png'
+import React from 'react'
+import Fade from 'react-reveal/Fade';
 
 import './Mission.css'
 
 
 
 const Mission = () => {
-
     return (
-            <>
-        <div className='mission'>
+
+<>
+
+        <div className='mission main-menu'>
+
+
+
                 <div className="mission-content">
-                    <h1>Our Mission</h1>
-                        <div className='mission-accent'>
-                            <img src={ Splatter3 } alt="individual therapy" loading="lazy"/>
-                        </div>
+                    <Fade top>
+                    <h1>MISSION</h1>
+                    </Fade>
                 </div>
             </div>
-
-
-
-            </>
+</>
     )
+}
 
-    }
 export default Mission
-
-
-
-

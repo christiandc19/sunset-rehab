@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.adhd-section-header {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.adhd-section-header p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  color: rgb(68, 67, 67);
+}
+
+.adhd-section-header h5 {
+font-family: 'Montserrat', sans-serif;
+text-align: left;
+color: rgb(68, 67, 67);
+}
+
+.adhd-section-header p {
+font-family: 'Montserrat', sans-serif;
+text-align: justify;
+}
+
+.adhd-section-header h5 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  color: rgb(68, 67, 67);
+}

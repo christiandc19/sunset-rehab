@@ -1,18 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nanum+Myeongjo:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 :root {
-  --primary-color: rgb(7, 95, 153);
-  --primary-dark: #be832a;
+  --primary-color: rgb(9, 100, 24);
+  --primary-dark: #0d2154;
   --secondary-color: #46a828;
-  --primary-text: rgb(22, 58, 131);
 
 }
 
@@ -31,7 +22,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
-  background-color: rgb(255, 255, 255);
 }
 
 code {
@@ -44,25 +34,23 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgb(240, 231, 231);
-  font-family: 'Roboto Slab', serif;
+  color: #dddddd;
 }
 
 a:hover {
-  color: rgb(4, 111, 252);
+  color: #1f2020;
 }
 
 p {
-  font-size: 16px;
+  font-size: 24px;
   line-height: 1.4;
-  font-family: 'Roboto', sans-serif;
-  color: var(--primary-text);
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
   color: var(--primary-color);
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -81,22 +69,21 @@ h2 {
 
 button {
   font-family: 'Roboto', sans-serif;
-  padding: .5rem 2rem;
+  padding: .7rem 3rem;
   margin: 1rem 0;
-  background-color: rgba(5, 71, 5, 0.699);
-  border: 1px solid rgba(5, 71, 5, 0.699);
+  background-color: rgb(190, 103, 31);
   color: #f8f8f8;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
-  border-radius: 16px;
+  border-radius: 5px;
   cursor:pointer;
+  border: none;
+  text-transform: uppercase;
 }
 
 button:hover {
-  color: black;
-  font-weight: 600;
-  background-color: rgba(255, 255, 255, 0.678);
-  border: 1px solid rgba(255, 255, 255, 0.678);
+  background-color: #f8f8f8;
+  color: rgb(190, 103, 31);
 }
 
 span {
@@ -120,6 +107,46 @@ padding: 7px 0 0px 0;
 margin: 0px 5px;
 }
 
+
+/* SUBMENU SECTION */
+
+/* .wrap {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+  }
+  
+  .box {
+      height: auto;
+      margin: 1rem;
+  }
+  
+  .wrap .header {
+      text-align: left;
+  }
+  
+  .box img {
+      border-radius: 10px;
+  } */
+  
+  p {
+      font-size: 15px;
+  }
+
+
+  .prog-link {
+    color: var(--primary-color);
+    font-size: 12px;
+  }
+
+  .prog-link:hover {
+    color: var(--secondary-color);
+  }
+  
+
+  .star {
+    color: goldenrod;
+}
   /* MEDIA QUERIES */
   
   @media screen and (max-width:940px) {
@@ -128,13 +155,103 @@ margin: 0px 5px;
         font-size: 14px;
         text-align: center;
     }
+
+    .wrap .header {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .wrap .box-btn button {
+        margin: 1rem auto;
+    }
+}
+
+    .job-link a {
+    color: rgb(72, 214, 103);
+  }
+
+@media screen and (max-width:375px) {
+  .box img {
+      width: 100%;
+      height: 300px;
+  }
+}
+
+/* MAIN MENUS CONTENTS */
+
+.main-menu .content {
+  position: absolute;
+  top: 30%;
+  /* padding: 0 10rem; */
+  width: 100%;
+}
+
+.main-menu h1 {
+  text-align: left;
+  font-size: 4rem;
+  padding: 10px 0;
+  color: white;
 }
 
 
+.main-menu p {
+  margin: auto;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.job-link a {
+  color:var(--primary-color);
+  font-weight: bold;
+}
+
+.job-link a:hover {
+  color: #46a828;
+}
+
+@media screen and (max-width:940px) {
+
+  .main-menu h1 {
+      font-size: 2rem;
+  }
+
+  .main-menu-header h1{
+      font-size: 1.5rem;
+  }
+  
+  .main-menu-content p{
+      font-size: 14px;
+  }
+
+  .main-menu .content {
+    font-size: 14px;
+    padding: 0 2rem;
+}
+}
 
 
+/* Wave Divider - SA and MH Hero Image */
 
+.hero-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 
+}
 
+.hero-divider img {
+  width: 100%;
+}
 
+@media screen and (max-width: 940px) {
+
+  .hero-divider img {
+    display: none;
+  }
+
+}
 

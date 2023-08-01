@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.TherapyMH {
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    background: #F0EFE3;
+
+}
+  
+  .TherapyMH:before {
+    content: '';
+    position: absolute;
+    /* background: url('../../assets/therapyMH-min.jpg') no-repeat center top/cover; */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.TherapyMH .content {
+    top: 10%;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.box-icon {
+    font-size: 6rem;
+    color: rgb(139, 85, 4);
+}
+
+.box-content {
+    width: 100%;
+    padding: 1rem;
+}
+
+/* LEFT */
+
+.TherapyMH .TherapyMH-left {
+    width: 100%;
+    text-align: center;
+}
+
+.TherapyMH .left-content {
+    top: 15%;
+}
+
+.TherapyMH .TherapyMH-left h1{
+    color: #fd9b2f;
+    font-size: 1rem;
+    letter-spacing: 8px; 
+}
+
+.TherapyMH .TherapyMH-left p {
+    color: rgb(26, 25, 25);
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+
+/* RIGHT */
+
+ .TherapyMH-right {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.TherapyMH-right .box {
+    height: 320px;
+    width: 350px;
+    background-color: rgba(248, 246, 246, 0.514);
+    margin: 1rem;
+}
+
+
+/* box 1 */
+
+.box1 .box-content h1 {
+    color: rgb(26, 25, 25);
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.box1 .box-content p {
+    color: rgb(26, 25, 25);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* box 2 */
+
+.box2 .box-content h1 {
+    color: rgb(26, 25, 25);
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.box2 .box-content p {
+    color: rgb(26, 25, 25);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* box 3 */
+
+.box3 .box-content h1 {
+    color: rgb(26, 25, 25);
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.box3 .box-content p {
+    color: rgb(26, 25, 25);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* box 4 */
+
+.box4 .box-content h1 {
+    color: rgb(26, 25, 25);
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.box4 .box-content p {
+    color: rgb(26, 25, 25);
+    text-align: center;
+    padding: 1rem;
+}
+
+
+/* button */
+
+.TherapyMH-btn {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.TherapyMH-cta {
+    position: relative;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    justify-content: center;
+   }
+   
+   .TherapyMH-cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #783B04;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   
+   .TherapyMH-cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #171818;
+   }
+   
+   .TherapyMH-cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #171818;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .TherapyMH-cta:hover:before {
+    width: 100%;
+    background: #783B04;
+   }
+   
+   .TherapyMH-cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .TherapyMH-cta:active {
+    transform: scale(0.95);
+   }
+
+
+@media screen and (max-width:1200px) {
+    .TherapyMH .TherapyMH-left {
+        width: 100%;
+    }
+
+    .TherapyMH .content {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 3rem 0;
+    }
+
+    .TherapyMH .content p {
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+
+
+    .TherapyMH-right {
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media screen and (max-width:940px) {
+
+
+    .TherapyMH-right  .box{
+        width: 90vw;
+        flex-wrap: wrap;
+        height: 180px;
+        background-color: rgba(24, 23, 23, 0.014);
+    }
+
+    .TherapyMH .TherapyMH-left h1{
+        font-size: 1.5rem;
+    }
+
+    .TherapyMH .TherapyMH-left p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .TherapyMH .TherapyMH-left {
+        width: 100%;
+    }
+
+    .TherapyMH .TherapyMH-right {
+        width: 90%;
+    }
+
+    .TherapyMH-btn {
+        padding: 3rem 0 0 0;
+    }
+
+    .box .box-content h1 {
+        padding: 0 0 .5rem 0;
+    }
+
+    .box-icon {
+        font-size: 4rem;
+        color: rgb(139, 85, 4);
+        padding: 0;
+    }
+
+}
+
+

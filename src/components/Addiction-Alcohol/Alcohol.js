@@ -1,19 +1,23 @@
 import React from 'react'
-import Splatter3 from '../../assets/splatter3.png'
+import Fade from 'react-reveal/Fade';
 
 import './Alcohol.css'
 
+import Wave from '../../assets/waves.svg'
 
 
 const Alcohol = () => {
     return (
         <>
-        <div className='alcohol container'>
-            <div className="alcohol-content">
-                <div className='alcohol-content-img'>
-                    <img src={ Splatter3 } alt="individual therapy" loading="lazy"/>
-                </div>
-                <h1>Alcohol</h1>
+        <div className='alcohol'>
+            <div className='hero-divider'>
+                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
+            </div>
+                <div className="sa-content">
+                    <Fade top>
+                    <h3>- ADDICTION</h3>
+                    <h1>ALCOHOLISM</h1>
+                    </Fade>
             </div>
         </div>
         </>

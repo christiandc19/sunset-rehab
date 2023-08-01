@@ -3,52 +3,42 @@
 
 .mission {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(22, 22, 22, 0.342);
+    background: #18171777;
   }
   
   .mission:before {
     content: '';
     position: absolute;
-    background: url('../../assets/insurance.jpg') no-repeat center center/cover;
+    background: url('../../assets/menu-bg-mission.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
   }
+  
 
-
-  .mission .mission-content {
+.mission .mission-content {
     display: block;
     position: absolute;
     top: 40%;
+    left: 5%;
     padding: 1rem;
-    width: 50%;
 }
 
-.mission-accent {
-    width: 100%;
-    margin: auto;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    z-index: -1;
-}
-
-.mission-accent img {
-    width: 100%;
-    opacity: 0.6;
+.mission h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mission h1 {
-    font-size: 5rem;
-    font-family: 'Indie Flower', cursive;
-    color: rgb(255, 255, 255);
-    text-align: center;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 
@@ -65,16 +55,4 @@
 .mission h1 {
     font-size: 3rem;
 }
-
-
-.mission .mission-content {
-    width: 70%;
-}
-}
-
-
-@media screen and (max-width:700px) {
-    .mission .mission-content {
-        width: 100%;
-    }
 }

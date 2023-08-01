@@ -1,23 +1,33 @@
-import React from 'react'
-import Splatter3 from '../../assets/splatter3.png'
+import React from "react";
+import Fade from 'react-reveal/Fade';
+import ContactForm from "../contact/ContactForm";
 
 import './About.css'
+import AboutSection from "./AboutSection";
 
 
 
-const Team = () => {
+
+const About = () => {
+
     return (
-<>
-<div className='about'>
-        <div className="about-content">
-            <h1>About Us</h1>
-                <div className='about-accent'>
-                    <img src={ Splatter3 } alt="individual therapy" loading="lazy"/>
-                </div>
-        </div>
-    </div>
-</>
-)
-}
+            <>
 
-export default Team
+
+
+            <div className='about main-menu'>
+
+                        <div className="about-content">
+                            <Fade top>
+                                <h1>ABOUT US</h1>
+                            </Fade>
+                        </div>
+                    </div>
+
+            <AboutSection />
+            <ContactForm />
+            </>
+    )
+
+    }
+export default About

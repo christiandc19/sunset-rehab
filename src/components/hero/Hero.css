@@ -1,74 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
 
 
-.hero {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.151);
-}
-
-.hero:before {
-  content: '';
-  position: absolute;
-  background: url('../../assets/hero-bg.jpg') no-repeat center bottom/cover;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-}
-
-
-.hero .hero-container {
-
-    align-items: left;
-    text-align: left;
+video {
+    position: relative;
+    object-fit: cover;
     width: 100%;
-}
+    height: 100vh;
+  }
+
+  .overlay {
+    position: relative;
+    z-index: 0;
+  }
+  
+  .overlay::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(22, 22, 22, 0.801);
+      opacity: .6;
+      /* !!! */
+      z-index: 1;
+  }
 
 .hero .content {
-  width: 50%;
-  top: 30%;
-  right: 5%;
-  position: absolute;
-  padding: 1rem;
-  padding: 1rem;
+    bottom: 25%;
+    right: 10%;
+    position: absolute;
+    text-align: center;
+    width: max-content;
+    padding: 1rem;
+    z-index: 2;
 }
 
+.hero-logo {
+    text-align: center;
+}
 
 .hero h1 {
-    font-size: 5rem;
-    color: rgb(255, 255, 255);
-    padding: 1rem 0;
-    line-height: 4rem;
-    letter-spacing: 2px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 900;
-}
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+    font-family: 'Lugrasimo', cursive;
+    line-height: 7rem;
+  }
 
-.hero p {
+
+  .hero h2 {
     font-size: 1.5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(246, 250, 247);
+
 }
 
+.hero-container p {
+    font-size: 16px;
+    color: white;
+}
+
+.hero .hero-btn button {
+    cursor: pointer;
+}
 
 
 /* MEDIA QUERIES */
 
+
 @media screen and (max-width:940px) {
 
-  .hero .content {
-    width: 100%;
-    top: 30%;
-    left: 0%;
-  }
+  .hero h2 {
+    font-size: 1.2rem;
+}
 
-    .hero h1 {
-        font-size: 3rem;
-        text-align: center;
-    }
+.hero h1 {
+font-size: 4rem;
+line-height: 4.5rem;
+}
+
+.hero p {
+    font-size: 16px;
+}
+
+.hero .content {
+    left: 0%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    z-index: 2;
+}
 
 
 }
+
+

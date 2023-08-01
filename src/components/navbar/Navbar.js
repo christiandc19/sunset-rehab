@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-import logo from '../../assets/nav-logo.png'
+import logo from '../../assets/nav-logo-2.png'
 import {FiChevronDown } from "react-icons/fi";
+// import Topbar from '../../components/topbar/Topbar';
 
 import './NavbarStyles.css'
 
@@ -39,53 +40,59 @@ const Navbar = () => {
 
 
 
+
     return (
-        <div name='top' className='navbar'>
-            <div className="navbar-container">
-                
-                 <div className="navbar-logo">
+        <>
+        {/* <Topbar /> */}
+
+        <div className='navbar' name='top'>
+
+            <div className='nav-box'>
+
+            <div className="navbar-logo">
                     <Link to='/'>
                     <img src={logo} alt="Sunset Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="/"> Home<FiChevronDown /> </Link>
-                    </li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/method'>Our Method</Link> </li>
 
-
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" >location <FiChevronDown />
-                        <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/north-citrus`}> North Citrus, Los Angeles </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/north-detroit`}> North Detroit, Los Angeles</NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/huntington-beach`}> Huntington Beach </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/west-hollywood`}> West Hollywood </NavLink> </li>
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/venice`}> Venice </NavLink> </li>
+                <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/mental-health`}> Programs <FiChevronDown /> </Link>
+                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health-php`}> Partial Hospitalization Program</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Intensive Outpatient Program </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> Outpatient Program </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health`}> Mental Health Programs </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse`}> Substance Abuse Programs </NavLink> </li>
+                            {/* <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/panic-disorder`}> Panic Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/acute-stress-disorder`}> Acute Stress Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/adhd`}> ADHD</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/anger-disorder`}> Anger Disorder </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/bipolar-disorder`}> Bipolar Disorder </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/ptsd`}> PTSD </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/schizoaffective`}> Schizoaffective Disorder </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/schizophrenia`}> Schizophrenia </NavLink> </li> */}
                         </ul>
                     </li>
 
 
-
-
-                    <li><Link to='/our-mission'>Our Mission</Link></li>
-                    <li><Link to='/about-us'>About Us</Link></li>
+                    <li><Link to='/mission'>Our Mission</Link> </li>
+                    <li><Link to='/about-us'>About Us</Link> </li>
+                    <li><Link to='/insurance'>Insurance</Link></li>
+                    <li><Link to='/contact'>Contact</Link></li>
                 </ul>
-
-                <Link to='/contact'>
-                <div className='nav-btn'>
-                    <button>Contact Us</button>
-                </div>
-                </Link>
 
                 <div className="hamburger" onClick={handleNav}>
                     {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
                 </div>
-
-
-
             </div>
         </div>
+        </>
     )
+   
 }
 
 export default Navbar
+
