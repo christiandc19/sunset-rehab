@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import Fade from "react-reveal/Fade";
 import { Link as LinkRoll } from "react-scroll";
-import "./MenusSA.css";
+import "./MenusMH.css";
 
 
 const MenusMH = () => {
@@ -11,24 +11,24 @@ const MenusMH = () => {
 
 
 
-<div className="substance-abuse container">
+<div className="mental-health container">
 
-      <div className="substance-abuse-header">
-        <h1>SUNSET REHAB TREATMENT CENTER OFFERS VARIOUS MENTAL SUBSTANCE ABUSE PROGRAMS</h1>
+      <div className="mental-health-header">
+        <h1>SUNSET REHAB TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS</h1>
         <p>At Sunset Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment.</p>
 
       </div>
 
 
-  <div className="substance-abuse-flex">
+  <div className="mental-health-flex">
 
-{/* alcoholism */}
-    <div class="card substance-abuse-card">
+{/* ANXIETY */}
+    <div class="card mental-health-card">
         <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
-        <h3 class="card-title">alcoholism</h3>
+        <h3 class="card-title">Anxiety</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/alcoholism">
+              <Link to="/anxiety">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>
@@ -36,13 +36,13 @@ const MenusMH = () => {
     </div>
 
 
-{/* cocaine */}
-<div class="card substance-abuse-card">
+{/* DEPRESSION */}
+<div class="card mental-health-card">
       <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/cocaine.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
-        <h3 class="card-title">cocaine</h3>
+        <h3 class="card-title">DEPRESSION</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/cocaine">
+              <Link to="/depression">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>
@@ -50,13 +50,13 @@ const MenusMH = () => {
     </div>
 
 
-{/* heroin */}
-    <div class="card substance-abuse-card">
+{/* PANIC DISORDER */}
+    <div class="card mental-health-card">
       <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/heroin.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
-        <h3 class="card-title">heroin</h3>
+        <h3 class="card-title">PANIC DISORDER</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/heroin">
+              <Link to="/panic-disorder">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>
@@ -64,13 +64,13 @@ const MenusMH = () => {
     </div>
 
 
-{/* fentanyl */}
-    <div class="card substance-abuse-card">
+{/* ASD */}
+    <div class="card mental-health-card">
       <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/fentanyl.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
-        <h3 class="card-title">fentanyl</h3>
+        <h3 class="card-title">ACUTE STRESS DISORDER</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/fentanyl">
+              <Link to="/acute-stress-disorder">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>
@@ -78,13 +78,13 @@ const MenusMH = () => {
     </div>
 
 
-{/* kratom */}
-<div class="card substance-abuse-card">
+{/* ADHD */}
+<div class="card mental-health-card">
       <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/kratom.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
-        <h3 class="card-title">kratom</h3>
+        <h3 class="card-title">ADHD</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/kratom">
+              <Link to="/adhd">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>
@@ -93,13 +93,13 @@ const MenusMH = () => {
 
 
 
-{/* opiate */}
-<div class="card substance-abuse-card">
+{/* ANGER DISORDER */}
+<div class="card mental-health-card">
       <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opiate.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
-        <h3 class="card-title">opiate</h3>
+        <h3 class="card-title">ANGER DISORDER</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/opiate">
+              <Link to="/anger-disorder">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>
@@ -107,13 +107,13 @@ const MenusMH = () => {
     </div>
 
 
-{/* mdma */}
-<div class="card substance-abuse-card">
+{/* BIPOLAR DISORDER */}
+<div class="card mental-health-card">
       <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/mdma.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
-        <h3 class="card-title">mdma</h3>
+        <h3 class="card-title">BIPOLAR DISORDER</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/mdma">
+              <Link to="/bipolar-disorder">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>
@@ -122,13 +122,13 @@ const MenusMH = () => {
 
 
 
-{/* meth */}
-<div class="card substance-abuse-card">
+{/* PTSD */}
+<div class="card mental-health-card">
       <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/meth.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
-        <h3 class="card-title">meth</h3>
+        <h3 class="card-title">PTSD</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/meth">
+              <Link to="/bipolar-disorder">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>
@@ -136,13 +136,13 @@ const MenusMH = () => {
     </div>
 
 
-{/* opioid */}
-<div class="card substance-abuse-card">
+{/* Schizoaffective */}
+<div class="card mental-health-card">
       <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opioid.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
-        <h3 class="card-title">opioid</h3>
+        <h3 class="card-title">Schizoaffective</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/opioid">
+              <Link to="/Schizoaffective">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>
@@ -150,42 +150,13 @@ const MenusMH = () => {
     </div>
 
 
-{/* oxycodone */}
-<div class="card substance-abuse-card">
+{/* Schizophrenia */}
+<div class="card mental-health-card">
       <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/oxycodone.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
-        <h3 class="card-title">oxycodone</h3>
+        <h3 class="card-title">Schizophrenia</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/oxycodone">
-                <button>Learn More</button>
-              </Link>
-        </LinkRoll>
-      </div>
-    </div>
-
-
-
-{/* prescriptions */}
-<div class="card substance-abuse-card">
-      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/prescriptions.jpg" alt="Mental Health" loading="lazy" />
-      <div class="card-body">
-        <h3 class="card-title">prescriptions</h3>
-        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/prescriptions">
-                <button>Learn More</button>
-              </Link>
-        </LinkRoll>
-      </div>
-    </div>
-
-
-{/* xanax */}
-<div class="card substance-abuse-card">
-      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg" alt="Mental Health" loading="lazy" />
-      <div class="card-body">
-        <h3 class="card-title">xanax</h3>
-        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/xanax">
+              <Link to="/Schizophrenia">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>

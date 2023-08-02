@@ -1,4 +1,8 @@
 import React, { useRef } from "react";
+import Contact2 from "../../assets/contact2.jpg";
+import Pin from "../../assets/pin.png";
+import Call from "../../assets/Call.png";
+import Email from "../../assets/email.png";
 
 
 
@@ -27,63 +31,81 @@ const ContactForm = () => {
     return (
         <>
 
-<div className="contactform2">
+            <div className="contactform2">
 
-    <div className="contact2-header contact2-container">
-        <h1>DO YOU NEED URGENT HELP?</h1>
-        <p>Our Mental Health Support team is available 24 hours a day 7 Days a week.</p>
-    </div>
+                <div className="contact2-header contact2-container">
+                    <h1>DO YOU NEED URGENT HELP?</h1>
+                    <p>Our Support team is available to asssist you.</p>
+                </div>
 
 
 
-<div class="contact2-container">
-    <div class="contact-form-content">
+              <div class="contact2-container">
+                  <div class="contact-form-content container">
 
-      <div class="left-side">
+                      <div class="left-side">
+                        <img src={Contact2} alt="Man Calling" loading="lazy" />
+                      </div>
 
-        <div class="address details">
-          <i class="fas fa-map-marker-alt"></i>
-          <div class="topic">Address</div><br/>
-          <div class="text-one">3720 Sunset Ln., Suite B, </div>
-          <div class="text-two">Antioch CA 94509</div>
+
+                      <div class="right-side">
+                          <div class="topic-text">Send us a message</div> <br/>
+                              <p className="topic-text-p">We'll keep your contact information strictly confidential.</p>
+                                <form ref={form} onSubmit={sendEmail}>
+                                  <div class="input-box">
+                                  <input type="text" name='name' placeholder='Your Name' required />
+                                  </div>
+                                  <div class="input-box">
+                                  <input type="text" name='email' placeholder='Your Email' required />
+                                  </div>
+                                  <div class="input-box">
+                                  <input type="text" name='email' placeholder='Your Phone' required />
+                                  </div>
+                                  <div class="input-box message-box">
+                                  <textarea name="message" rows="4" placeholder="How can we help?" required ></textarea>
+                                  </div>
+                                  <input className="contact-btn" type="submit" value="Submit" />
+                                </form>
+                          </div>
+                      </div>
+              </div>
+
+                      <div className="contact-cards">
+
+                          <div class="contact-card address details">
+                            <div className="card-icon">
+                              <img src={Pin} alt="Pin Icon" loading="lazy"/>
+                            </div>
+                            <h1>Address</h1>
+                            <div class="text-one">7235 Santa Monica Blvd,</div>
+                            <div class="text-two">Hollywood, CA 90046</div>
+                          </div>
+
+                          <div class="contact-card phone details">
+                            <div className="card-icon">
+                              <img src={Call} alt="Pin Icon" loading="lazy"/>
+                            </div>
+                            <h1>Phone</h1>
+                            <div class="text-one"><a href="tel:3233304151"> +1 (323) 330-4151</a></div>
+                          </div>
+
+                          <div class="contact-card email details">
+                            <div className="card-icon">
+                              <img src={Email} alt="Pin Icon" loading="lazy"/>
+                            </div>
+                            <h1>Email</h1>
+                            <div class="text-one">info@sunsetrehab.biz</div>
+                          </div>
+
+                      </div>
+
+                      
+
+
+
+
+
         </div>
-
-        <div class="phone details">
-          <i class="fas fa-phone-alt"></i>
-          <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3234525661"> +1 (323) 452-5661</a></div>
-        </div>
-
-        <div class="email details">
-          <i class="fas fa-envelope"></i>
-          <div class="topic">Email</div><br/>
-          <div class="text-one">info@domainName.com</div>
-        </div>
-      </div>
-
-      <div class="right-side">
-        <div class="topic-text">Send us a message</div> <br/>
-        <p className="topic-text-p">Please call our admission department if you have any questions.</p>
-      <form ref={form} onSubmit={sendEmail}>
-        <div class="input-box">
-        <input type="text" name='name' placeholder='Your Name' required />
-        </div>
-        <div class="input-box">
-        <input type="text" name='email' placeholder='Your Email' required />
-        </div>
-        <div class="input-box">
-        <input type="text" name='email' placeholder='Your Phone' required />
-        </div>
-        <div class="input-box message-box">
-        <textarea name="message" rows="4" placeholder="How can we help?" required ></textarea>
-
-        </div>
-        <input className="contact-btn" type="submit" value="Submit" />
-      </form>
-    </div>
-    </div>
-  </div>
-  </div>
         </>
     )
 }

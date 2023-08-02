@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-.substance-abuse {
+.mental-health {
   padding: 5rem 0;
 }
 
-.substance-abuse-header h1 {
+.mental-health-header h1 {
   padding: 1rem; 
   color: rgb(8, 11, 56);
 }
 
-.substance-abuse-header p {
+.mental-health-header p {
   padding: 1rem;
 }
 
-.substance-abuse-flex {
+.mental-health-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -21,7 +21,7 @@
   padding: 3rem 0;
 }
 
-.substance-abuse-card {
+.mental-health-card {
   width: 250px;
   font-family:'Roboto';
   border-radius: 10px;
@@ -31,7 +31,7 @@
 }
 
 
-.substance-abuse-card img
+.mental-health-card img
 {
   width:100%;
   transition: all 0.4s ease-out;
@@ -46,12 +46,12 @@
   padding: 1rem 0;
 }
 
-.substance-abuse {
+.mental-health {
   text-align: center;
 }
 
 
-.substance-abuse button {
+.mental-health button {
   background-color: rgb(2, 2, 34);
   border: none;
   font-size: .8rem;
@@ -60,7 +60,7 @@
 
 
 @media screen and (max-width:700px) {
-  .substance-abuse-card {
+  .mental-health-card {
     width: 90%;
   }
 }

@@ -2,19 +2,19 @@ import React from 'react'
 
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
-import MHOP from '../components/op/Op'
-import MHOpSection from '../components/op/OpSection'
+import IOP from '../components/iop/Iop'
+import IopSection from '../components/iop/IopSection'
 
 
-const Op = () => {
+const Iop = () => {
   return (
     <>
     <Navbar /> 
-    <MHOP />
-    <MHOpSection />
+    <IOP />
+    <IopSection />
     <Footer />
      </>
   )
 }
 
-export default Op
+export default Iop
