@@ -11,8 +11,8 @@
   .fentanyl:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
-    height: 80vh;
+    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center bottom/cover;
+    height: 100%;
     width: 100%;
     z-index: -1;
   }
@@ -27,7 +27,8 @@
 .fentanyl .fentanyl-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
+    left: 10%;
     padding: 1rem;
 }
 
@@ -35,12 +36,7 @@
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
-}
-
-.fentanyl h3 {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 /* MEDIA QUERIES */
@@ -51,9 +47,10 @@
     font-size: 2rem;
 }
 
-.fentanyl h3 {
-    font-size: 1rem;
+.fentanyl .fentanyl-content {
+    top: 50%;
+    left: 0%;
+    width: 100%;
 }
-
 
 }

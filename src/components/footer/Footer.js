@@ -97,7 +97,7 @@ const Footer = () => {
             </div>
 
                 <div className="copyright">
-                  <p> &copy; 2023 Antioch Rehab Treatment Center. All rights reserved </p>
+                  <p> &copy; 2023 Sunset Rehab Treatment Center. All rights reserved </p>
                 </div>
                 
         </div>

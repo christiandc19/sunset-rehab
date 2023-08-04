@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from '../contact/ContactForm'
+import Contact2 from '../contact/Contact2'
 import { FaRegStar } from 'react-icons/fa';
 
 import './SchizoaffectiveSection.css'
@@ -18,11 +18,7 @@ const SchizoaffectiveSection = () => {
                 This can lead to further problems, like a profound sense of loneliness and setbacks in your professional and personal life (difficulty keeping a job, or even performing daily functions).
                 </p>
 </div>
-        <div className="contact2-header contact2-container">
-            <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
-        </div>
-<ContactForm />
+<Contact2 />
 
     </>
   )

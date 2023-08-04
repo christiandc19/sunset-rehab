@@ -27,7 +27,7 @@
 .anxiety .anxiety-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
@@ -45,5 +45,10 @@
 .anxiety h1 {
     font-size: 2rem;
 }
+
+.anxiety .anxiety-content {
+    top: 50%;
+}
+
 
 }

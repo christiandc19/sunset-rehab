@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');:root {
 
-:root {
+  
   --primary-color: rgb(9, 100, 24);
   --primary-dark: #0d2154;
   --secondary-color: #46a828;
@@ -82,8 +83,8 @@ button {
 }
 
 button:hover {
-  background-color: #f8f8f8;
-  color: rgb(190, 103, 31);
+  background-color: #8db0dd;
+  color: rgb(20, 20, 20);
 }
 
 span {

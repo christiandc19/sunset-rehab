@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import './OpSection.css'
 
 import MenusMH from '../menusMH/MenusMH';
+import Contact2 from '../contact/Contact2'
 
 const OpSection = () => {
   return (
@@ -47,12 +48,6 @@ Near conclusion, patients and their case manager work together to plan a proper 
 </p>
 </div>
 </div>
-
-
-
-
-<MenusMH />
-{/* <Contact2 /> */}
     </>
   )
 }

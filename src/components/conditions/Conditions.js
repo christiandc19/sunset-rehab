@@ -37,7 +37,7 @@ const Conditions = () => {
           <div className="condition-icons-header container">
             <h1>Types of Mental Health Disorders Do We Treat</h1>
             <p>
-              Antioch Rehab provides services to adults and adolescents who have
+              Sunset Rehab provides services to adults and adolescents who have
               suffer from depression, anxiety, Bipolar disorder, and other
               mental illnesses.
             </p>
@@ -200,7 +200,7 @@ const Conditions = () => {
           <div className="condition-icons-header container">
             <h1>Types of Substance Abuse Addiction Do We Treat</h1>
             <p>
-              Here at Antioch Rehab, we offer a full array of affordable drug
+              Here at Sunset Rehab, we offer a full array of affordable drug
               rehab programs that can take addicts from detox to inpatient or
               outpatient care and back home again.
             </p>

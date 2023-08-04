@@ -11,7 +11,7 @@
   .cocaine:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
+    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center bottom/cover;
     height: 80vh;
     width: 100%;
     z-index: -1;
@@ -27,7 +27,8 @@
 .cocaine .cocaine-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
+    left: 10%;
     padding: 1rem;
 }
 
@@ -37,11 +38,7 @@
     color: white;
 }
 
-.cocaine h3 {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 /* MEDIA QUERIES */
 
@@ -49,10 +46,14 @@
 
 .cocaine h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
-.cocaine h3 {
-    font-size: 1rem;
+.cocaine .cocaine-content {
+    left: 0%;
+    top: 50%;
+    width: 100%;
 }
+
 
 }

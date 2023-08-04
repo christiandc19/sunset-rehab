@@ -24,11 +24,11 @@ const MenusMH = () => {
 
 {/* alcoholism */}
     <div class="card substance-abuse-card">
-        <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg" alt="Mental Health" loading="lazy" />
+    <img src="https://sunset-rehab.s3.us-west-1.amazonaws.com/alcohol-addiction.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
         <h3 class="card-title">alcoholism</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/alcoholism">
+              <Link to="/alcohol">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>
@@ -38,7 +38,7 @@ const MenusMH = () => {
 
 {/* cocaine */}
 <div class="card substance-abuse-card">
-      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/cocaine.jpg" alt="Mental Health" loading="lazy" />
+      <img src="https://sunset-rehab.s3.us-west-1.amazonaws.com/cocaine-addiction.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
         <h3 class="card-title">cocaine</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -52,7 +52,7 @@ const MenusMH = () => {
 
 {/* heroin */}
     <div class="card substance-abuse-card">
-      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/heroin.jpg" alt="Mental Health" loading="lazy" />
+      <img src="https://sunset-rehab.s3.us-west-1.amazonaws.com/heroin-addiction.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
         <h3 class="card-title">heroin</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -66,7 +66,7 @@ const MenusMH = () => {
 
 {/* fentanyl */}
     <div class="card substance-abuse-card">
-      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/fentanyl.jpg" alt="Mental Health" loading="lazy" />
+      <img src="https://sunset-rehab.s3.us-west-1.amazonaws.com/fentanyl-addiction.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
         <h3 class="card-title">fentanyl</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -80,7 +80,7 @@ const MenusMH = () => {
 
 {/* kratom */}
 <div class="card substance-abuse-card">
-      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/kratom.jpg" alt="Mental Health" loading="lazy" />
+      <img src="https://sunset-rehab.s3.us-west-1.amazonaws.com/kratom-addiction.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
         <h3 class="card-title">kratom</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -109,7 +109,7 @@ const MenusMH = () => {
 
 {/* mdma */}
 <div class="card substance-abuse-card">
-      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/mdma.jpg" alt="Mental Health" loading="lazy" />
+<img src="https://sunset-rehab.s3.us-west-1.amazonaws.com/mdma-addiction.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
         <h3 class="card-title">mdma</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -124,7 +124,7 @@ const MenusMH = () => {
 
 {/* meth */}
 <div class="card substance-abuse-card">
-      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/meth.jpg" alt="Mental Health" loading="lazy" />
+      <img src="https://sunset-rehab.s3.us-west-1.amazonaws.com/meth-addiction.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
         <h3 class="card-title">meth</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -152,7 +152,7 @@ const MenusMH = () => {
 
 {/* oxycodone */}
 <div class="card substance-abuse-card">
-      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/oxycodone.jpg" alt="Mental Health" loading="lazy" />
+      <img src="https://sunset-rehab.s3.us-west-1.amazonaws.com/oxycodone-addiction.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
         <h3 class="card-title">oxycodone</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -181,7 +181,7 @@ const MenusMH = () => {
 
 {/* xanax */}
 <div class="card substance-abuse-card">
-      <img src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg" alt="Mental Health" loading="lazy" />
+      <img src="https://sunset-rehab.s3.us-west-1.amazonaws.com/xanax-addiction.jpg" alt="Mental Health" loading="lazy" />
       <div class="card-body">
         <h3 class="card-title">xanax</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>

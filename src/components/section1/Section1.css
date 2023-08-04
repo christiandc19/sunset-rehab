@@ -1,3 +1,7 @@
+.section1 {
+    background-color: rgb(250, 213, 179);
+    padding: 3rem 0;
+}
 
 .section1-content {
     display: flex;
@@ -18,12 +22,12 @@
     background-color: #6D4321;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    width: 32%;
+    width: 33%;
 }
 
 .section1-box2 {
     background-color: #E2AB7F;
-    width: 32%;
+    width: 33%;
 
 }
 
@@ -31,7 +35,7 @@
     background-color: #dfdad6;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    width: 32%;
+    width: 33%;
 
 }
 
@@ -55,14 +59,14 @@
 }
 
 .section1-box h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: white;
     text-align: center;
 }
 
 .section1-box p {
     line-height: 25px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
 }
 

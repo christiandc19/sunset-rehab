@@ -4,7 +4,7 @@
 .asd {
     width: 100%;
     height: 90vh;
-    background: rgba(42, 14, 73, 0.486);
+    background: rgba(20, 20, 20, 0.486);
     position: relative;
   }
   
@@ -27,7 +27,7 @@
 .asd .cocaine-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
@@ -44,6 +44,10 @@
 
 .asd h1 {
     font-size: 2rem;
+}
+
+.asd .cocaine-content {
+    top: 50%;
 }
 
 }

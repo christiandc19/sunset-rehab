@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from '../contact/ContactForm'
+import Contact2 from '../contact/Contact2'
 import { FaRegStar } from 'react-icons/fa';
 
 import './DepressionSection.css'
@@ -32,7 +32,7 @@ const DepressionSection = () => {
                 </p>
 </div>
 
-<ContactForm />
+<Contact2 />
 
     </>
   )

@@ -1,0 +1,68 @@
+.dialectal {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dialectal:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/plant-bg1.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .02;
+  }
+
+  .dialectal-content {
+    padding: 1rem 0;
+  }
+
+  .dialectal-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .dialectal-left {
+    width: 55%;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .dialectal-left h1 {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .dialectal-left p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: rgb(65, 66, 66);
+    text-align: justify;  }
+
+  .dialectal-right {
+    padding: 1rem;
+    width: 400px;
+    margin: auto;
+  }
+
+  .dialectal-right img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  @media  screen and (max-width:940px) {
+    .dialectal-left {
+        width: 100%;
+      }
+      .dialectal-left h1, .dialectal-left p {
+        text-align: center;
+      }
+
+
+  }

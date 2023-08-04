@@ -5,7 +5,7 @@ import App from './App';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import MethodPage from './routes/MethodPage'
+import TreatmentPage from './routes/TreatmentPage'
 import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
 import InsurancePage from './routes/InsurancePage'
@@ -14,7 +14,7 @@ import ContactPage from './routes/ContactPage'
 import MH from './routes/MH';
 import Php from './routes/PHP';
 import Iop from './routes/IOP';
-import MHOp from './routes/MH-OP';
+import Op from './routes/OP';
 
 import Jobs from './routes/JOBS';
 
@@ -55,7 +55,7 @@ ReactDOM.render(
       <Route exact path='/mental-health' element={<MH />} />
       <Route exact path='/php' element={<Php />} />
       <Route exact path='/iop' element={<Iop />} />
-      <Route exact path='/mental-health-op' element={<MHOp />} />
+      <Route exact path='/op' element={<Op/>} />
 
       <Route exact path='/jobs' element={<Jobs />} />
 
@@ -88,7 +88,7 @@ ReactDOM.render(
 
       <Route exact path='/substance-abuse' element={<SA />} />
 
-      <Route exact path='/method' element={<MethodPage />} />
+      <Route exact path='/treatment' element={<TreatmentPage />} />
       <Route exact path='/mission' element={<MissionPage />} />
       <Route exact path='/about-us' element={<AboutPage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />

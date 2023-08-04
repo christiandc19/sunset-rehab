@@ -11,7 +11,7 @@
   .heroin:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
+    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center bottom/cover;
     height: 80vh;
     width: 100%;
     z-index: -1;
@@ -27,7 +27,8 @@
 .heroin .heroin-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
+    left: 10%;
     padding: 1rem;
 }
 
@@ -37,11 +38,6 @@
     color: white;
 }
 
-.heroin h3 {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
 
 /* MEDIA QUERIES */
 
@@ -49,10 +45,14 @@
 
 .heroin h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
-.heroin h3 {
-    font-size: 1rem;
+.heroin .heroin-content {
+    top: 50%;
+    left: 0%;
+    width: 100%;
 }
+
 
 }

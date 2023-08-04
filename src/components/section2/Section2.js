@@ -8,17 +8,6 @@ const Section2 = () => {
     <>
       <div className="section2 ">
         <div className="section2-content container">
-          <div className="section2-header">
-          <h1>What We Can Offer</h1> <br />
-            <p>
-              At Sunset Rehab, we offer different levels of care based on each
-              individual’s needs. Our programs consist of an intensive
-              outpatient program (IOP) and a more demanding and structured
-              partial hospitalization program (PHP). <br /> 
-              You can be confident that our caring and professional staff will
-              recommend the right level of care for you or your loved one.
-            </p>{" "}
-          </div>
 
           <div className="section2-flex">
 

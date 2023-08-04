@@ -10,9 +10,9 @@ import { MdOutlineWorkOutline } from "react-icons/md";
 const Section1 = () => {
   return (
     <>
-      <div className="section1 container">
+      <div className="section1">
 
-        <div className="section1-content">
+        <div className="section1-content container">
 
           <div className="section1-box section1-box1">
             <div className="section1-flexBox section1-flexItem1">

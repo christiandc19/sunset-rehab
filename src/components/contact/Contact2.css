@@ -4,7 +4,7 @@
     width: auto;
     padding: 20px;
     text-align: center;
-    margin: 2rem auto;
+    margin: 1rem auto;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -18,16 +18,17 @@
   align-items: center;
   justify-content: space-evenly;
   margin: auto;
-  padding: 5rem 0;
+  padding: 1rem 0 2rem 0;
 }
 
 .contact-form-content .left-side{
   width: 50%;
   margin: auto;
+  padding: 1rem;
 }
 
-.left-side img {
-  width: 100%;
+.left-side iframe {
+  border-radius: 1rem;
 }
 
 .contact-form-content .right-side{
@@ -37,7 +38,7 @@
 
 
 .container .contact-form-content .right-side{
-  width: 50%;
+  width: 60%;
 }
 
 .contact-form-content .right-side .topic-text{

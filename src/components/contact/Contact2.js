@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import Contact2 from "../../assets/contact2.jpg";
 import Pin from "../../assets/pin.png";
 import Call from "../../assets/Call.png";
 import Email from "../../assets/email.png";
@@ -44,7 +43,9 @@ const ContactForm = () => {
                   <div class="contact-form-content container">
 
                       <div class="left-side">
-                        <img src={Contact2} alt="Man Calling" loading="lazy" />
+
+                      <iframe title="map" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=7235%20Santa%20Monica%20Blvd,%20Hollywood,%20CA%2090046+(Sunset%20Rehab)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population mapping</a></iframe>
+
                       </div>
 
 

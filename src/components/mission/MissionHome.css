@@ -22,7 +22,9 @@
   }
 
   .mission-home .mission-home-content  {
-    top: 15%;
+    position: absolute;
+    top: 20%;
+    width: 60%;
   }
 
 .mission-home .mission-home-content h1 {
@@ -62,5 +64,10 @@
     .mission-home h2 {
         font-size: 2rem;
     }
+
+      .mission-home .mission-home-content  {
+        top: 20%;
+        width: 90%;
+  }
 
     }

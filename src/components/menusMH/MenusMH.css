@@ -52,10 +52,15 @@
 
 
 .mental-health button {
-  background-color: rgb(2, 2, 34);
+  background-color: rgb(190, 103, 31);
   border: none;
   font-size: .8rem;
   padding: .5rem 2rem;
+}
+
+.mental-health button:hover {
+  background-color: rgb(14, 14, 71);
+  color: white;
 }
 
 

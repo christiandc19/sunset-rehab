@@ -11,7 +11,7 @@
   .Schizoaffective:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
+    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center bottom/cover;
     height: 80vh;
     width: 100%;
     z-index: -1;
@@ -27,7 +27,7 @@
 .Schizoaffective .Schizoaffective-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
@@ -35,6 +35,7 @@
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
 }
 
 /* MEDIA QUERIES */
@@ -45,8 +46,8 @@
     font-size: 2rem;
 }
 
-.Schizoaffective h3 {
-    font-size: 1rem;
+.Schizoaffective .Schizoaffective-content {
+    top: 50%;
 }
 
 }

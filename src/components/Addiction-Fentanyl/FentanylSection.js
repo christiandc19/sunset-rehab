@@ -1,11 +1,12 @@
 import React from 'react'
-import ContactForm from '../contact/ContactForm'
+import Contact2 from '../contact/Contact2'
 
 import './FentanylSection.css'
 
 const FentanylSection = () => {
   return (
 <>
+<div className='fentanyl-section'>
 <div className="fentanyl-section-header container">
                 <h1>FENTANYL</h1><br/>
                 <p>A highly addictive stimulant that affects the brain by elevating levels of dopamine (a chemical associated with reward or pleasure).
@@ -14,12 +15,12 @@ const FentanylSection = () => {
                 It is up to 50 times stronger than heroin and cheaper to make. It takes very little to produce a euphoric high with fentanyl. The dopamine reward leads to addiction. It is so toxic that withdrawal is much more abrupt and extreme than other opioids like heroin.
                 </p>
 </div>
-<br/>
-        <div className="contact2-header contact2-container">
-            <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
-        </div>
-<ContactForm />
+
+</div>
+
+<Contact2 />
+
+
     </>
   )
 }

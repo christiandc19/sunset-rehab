@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from '../contact/ContactForm'
+import Contact2 from '../contact/Contact2'
 
 import './SchizophreniaSection.css'
 
@@ -14,11 +14,7 @@ const SchizophreniaSection = () => {
                 Symptoms will vary in type and severity most of the time. Most complications from schizophrenia begin with cognitive, behavioral, and emotional changes. The sooner you recognize the signs, the quicker you can begin to treat it and prevent long-term effects.
                 </p>
 </div>
-        <div className="contact2-header contact2-container">
-            <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
-        </div>
-<ContactForm />
+<Contact2/>
 
     </>
   )

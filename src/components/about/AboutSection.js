@@ -18,7 +18,7 @@ const AboutSection = () => {
             </h2>{" "}
             <br />
             <p>
-              Antioch Rehab Treatment Center has refined and well educated staff
+              Sunset Rehab Treatment Center has refined and well educated staff
               that is committed to providing the best possible level of care to
               our clients. We are there for you, through every stage of
               recovery. No matter where you’re located, you can reach out and
@@ -30,7 +30,7 @@ const AboutSection = () => {
               and utilize established medical treatments to help you get sober
               and stay sober. <br />
               <br />
-              Antioch Rehab helps you taper in a safe, structured environment.
+              Sunset Rehab helps you taper in a safe, structured environment.
               We are there for you, through every stage of recovery. No matter
               where you’re located, you can reach out and get in touch with
               someone from our staff today.

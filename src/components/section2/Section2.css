@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 
-.section2-header {
-    text-align: center;
-    padding: 3rem 1rem;
+.section2 {
+    background-color: rgb(250, 213, 179);
+    padding: 5rem 0 0 0;
 }
+
 
 .section2-flex {
     display: flex;

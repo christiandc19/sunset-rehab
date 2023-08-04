@@ -3,7 +3,7 @@ import Navbar from '../components/navbar/Navbar'
 import Insurance from '../components/insurance/Insurance'
 import Footer from '../components/footer/Footer'
 import InsuranceSection from '../components/insurance/InsuranceSection';
-import ContactForm from '../components/contact/ContactForm';
+import Contact2 from '../components/contact/Contact2';
 
 
 
@@ -14,7 +14,7 @@ const InsurancePage = () => {
            <Navbar /> 
            <Insurance />
            <InsuranceSection />
-           <ContactForm />
+           <Contact2 />
            <Footer />
         </>
     )

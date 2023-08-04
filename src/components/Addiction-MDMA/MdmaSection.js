@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from '../contact/ContactForm'
+import Contact2 from '../contact/Contact2'
 
 import './MdmaSection.css'
 
@@ -13,11 +13,7 @@ const MdmaSection = () => {
                 MDMA is an empathogen, that is, a drug that increases one’s empathy and compassion towards others. Continued MDMA use appears to affect the body’s dopamine and serotonin levels associated with substance use disorders.<br/><br/> Several factors determine any individual’s reaction to MDMA intake, including other stimulants present in the body, your body’s metabolism, preexisting conditions, the strength of the batch, and the dosage amount.
                 </p>
 </div>
-          <div className="contact2-header contact2-container">
-            <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
-        </div>
-<ContactForm />
+<Contact2 />
 
     </>
   )

@@ -128,7 +128,7 @@ const MenusMH = () => {
       <div class="card-body">
         <h3 class="card-title">PTSD</h3>
         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-              <Link to="/bipolar-disorder">
+              <Link to="/ptsd">
                 <button>Learn More</button>
               </Link>
         </LinkRoll>

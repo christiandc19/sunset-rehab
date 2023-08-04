@@ -1,7 +1,7 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './PhpSection.css'
-
+import { AiFillCheckCircle } from 'react-icons/ai';
 
 const PhpSection = () => {
   return (
@@ -24,12 +24,12 @@ const PhpSection = () => {
         One of the first steps that you should take is to talk to our addiction treatment admissions team. They will provide a formal assessment to determine what level of treatment is right for your needs. For instance, we may recommend a partial hospitalization program if you meet these criteria:</p>
         <br />
         <ul>
-            <li><p>You are medically stable.</p></li>
-            <li><p>You’re not at risk of harming others or yourself.</p></li>
-            <li><p>You have difficulty functioning at school, work, or home.</p></li>
-            <li><p>You’re motivated to engage in our treatment program.</p></li>
-            <li><p>You’re experiencing co-occurring substance use disorders and mental health concerns.</p></li>
-            <li><p>You have sufficient support in your home life.</p></li>
+            <li><p><span><AiFillCheckCircle /></span> You are medically stable.</p></li>
+            <li><p><span><AiFillCheckCircle /></span> You’re not at risk of harming others or yourself.</p></li>
+            <li><p><span><AiFillCheckCircle /></span> You have difficulty functioning at school, work, or home.</p></li>
+            <li><p><span><AiFillCheckCircle /></span> You’re motivated to engage in our treatment program.</p></li>
+            <li><p><span><AiFillCheckCircle /></span> You’re experiencing co-occurring substance use disorders and mental health concerns.</p></li>
+            <li><p><span><AiFillCheckCircle /></span> You have sufficient support in your home life.</p></li>
         </ul>
         <br />
         <p>Our evaluation doesn’t just determine what level of care you need. It also allows us to choose what therapeutic options could be part of your treatment program.</p>

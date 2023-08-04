@@ -6,7 +6,7 @@
     padding: 5rem 0;
 }
 
-.InsuranceSection .content {
+.InsuranceSection-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -35,7 +35,7 @@
 }
 
 .insurance-thumbnail {
-    width: 150px;
+    width: 100px;
 }
 
 .insurance-thumbnail img {

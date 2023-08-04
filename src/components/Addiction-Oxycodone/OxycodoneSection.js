@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from '../contact/ContactForm'
+import Contact2 from '../contact/Contact2'
 
 import './OxycodoneSection.css'
 
@@ -15,11 +15,7 @@ const OxycodoneSection = () => {
                 Oxycodone delivers a sensation or feeling of euphoria, sedation, reduction of anxiety, and relaxation. It is no coincidence that as the prescriptions of Oxycodone increased in recent years, so too have addiction rates.
                 </p>
 </div>
-<div className="contact2-header contact2-container">
-            <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
-        </div>
-<ContactForm />
+<Contact2 />
 
     </>
   )

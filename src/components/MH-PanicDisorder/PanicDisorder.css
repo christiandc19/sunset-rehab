@@ -27,7 +27,7 @@
 .PanicDisorder .PanicDisorder-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
@@ -43,6 +43,10 @@
 
 .PanicDisorder h1 {
     font-size: 2rem;
+}
+
+.PanicDisorder .PanicDisorder-content {
+    top: 50%;
 }
 
 }
