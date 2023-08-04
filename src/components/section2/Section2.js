@@ -6,7 +6,7 @@ import wrapper1 from "../../assets/wrapper1-min.jpg";
 const Section2 = () => {
   return (
     <>
-      <div className="section2 ">
+      <div className="section2  ">
         <div className="section2-content container">
 
           <div className="section2-flex">

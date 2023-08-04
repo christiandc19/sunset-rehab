@@ -13,6 +13,7 @@ const Menu = () => {
   return (
 
     <>
+    <div className='menubg'>
     <div className='menu'>
         <div className='menu-content '>
 
@@ -93,6 +94,7 @@ const Menu = () => {
             </div>
 
         </div>
+    </div>
     </div>
     </>
     

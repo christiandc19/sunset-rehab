@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
+
+.contact-form2-bg {
+  width: 100%;
+  height: auto;
+  position: relative;
+  justify-content: center;
+  background: rgba(29, 28, 29, 0);
+  padding: 5rem 0;
+}
+
+.contact-form2-bg:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/menu-bg.png') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .1;
+  padding: 5rem 0;
+}
+
+
+
+
 .contact2-header {
     width: auto;
     padding: 20px;
@@ -102,7 +126,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  padding: 0 0 3rem 0;
+  padding: 3rem 0;
 }
 
 .phone a {
@@ -112,7 +136,7 @@
 .contact-card {
   width: 30%;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(235, 244, 253);
   border-radius: 5px;
   padding: 1rem ;
   -webkit-box-shadow: 10px 10px 20px -14px rgba(0,0,0,0.75);
@@ -134,6 +158,23 @@
 .card-icon img {
   width: 100%;
 }
+
+
+.hidden {
+  display: none;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  z-index: 2;
+}
+
+
+
+
+
+
 
 @media (max-width: 940px) {
 

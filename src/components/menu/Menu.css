@@ -1,9 +1,27 @@
-.menu {
-    padding: 0 0 3rem 0;
-}
+.menubg {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(29, 28, 29, 0);
+  }
+  
+  .menubg:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/menu-bg.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .1;
+    padding: 5rem 0;
+  }
+
 
 .menu-content {
-    /* background-color: #E2AB7F; */
+    top: 10%;
 }
 
 .menu-header {

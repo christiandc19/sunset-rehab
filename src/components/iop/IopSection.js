@@ -2,9 +2,6 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './IopSection.css'
 
-import Contact2 from '../contact/Contact2'
-import MenusMH from '../menusMH/MenusMH';
-
 const IopSection = () => {
   return (
     <>

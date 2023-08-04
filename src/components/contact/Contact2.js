@@ -16,8 +16,21 @@ const ContactForm = () => {
         e.preventDefault();
 
 
+
+                // Popup message after send button is clicked
+                const feedbackEl = document.querySelector(".feedback");
+                feedbackEl.setAttribute("class", "feedback");
+                setTimeout(function() {
+                feedbackEl.setAttribute("class", "feedback hidden");
+                }, 4000);
+
+
+
+
+
+
         //    Service Id        Template Id                 Public Key (Account Tab) 
-        emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+        emailjs.sendForm('service_hsunksm', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -29,9 +42,9 @@ const ContactForm = () => {
 
     return (
         <>
-
+            <div className="contact-form2-bg">
+              
             <div className="contactform2">
-
                 <div className="contact2-header contact2-container">
                     <h1>DO YOU NEED URGENT HELP?</h1>
                     <p>Our Support team is available to asssist you.</p>
@@ -66,6 +79,10 @@ const ContactForm = () => {
                                   <textarea name="message" rows="4" placeholder="How can we help?" required ></textarea>
                                   </div>
                                   <input className="contact-btn" type="submit" value="Submit" />
+                                  <div className="textarea2 feedback hidden">
+                                  <textarea name="message2" cols="30" rows="3" required>Message Sent to Sunset Rehab!</textarea>
+                                  </div>
+
                                 </form>
                           </div>
                       </div>
@@ -105,7 +122,7 @@ const ContactForm = () => {
 
 
 
-
+          </div>
         </div>
         </>
     )

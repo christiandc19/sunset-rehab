@@ -19,6 +19,7 @@ import Anthem from '../../assets/anthem.png'
 const InsuranceSection = () => {
     return (
         <>
+        <div className='insurance-section-bg'>
         <div className='InsuranceSection container'>
             <div className="InsuranceSection-container">
                         <div className='insuranceSection-caption'>
@@ -93,7 +94,7 @@ const InsuranceSection = () => {
 
 
 
-
+            </div>
         </div>
         </>
     )

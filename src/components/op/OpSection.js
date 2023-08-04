@@ -2,9 +2,6 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './OpSection.css'
 
-import MenusMH from '../menusMH/MenusMH';
-import Contact2 from '../contact/Contact2'
-
 const OpSection = () => {
   return (
     <>

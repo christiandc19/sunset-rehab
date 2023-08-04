@@ -1,8 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.insurance-section-bg {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(29, 28, 29, 0);
+  }
+  
+  .insurance-section-bg:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/menu-bg.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .1;
+    padding: 5rem 0;
+  }
+
+
 .InsuranceSection {
     width: 100%;
     position: relative;
-    background: #ffffff;
     padding: 5rem 0;
 }
 
@@ -35,7 +58,7 @@
 }
 
 .insurance-thumbnail {
-    width: 100px;
+    width: 120px;
 }
 
 .insurance-thumbnail img {
