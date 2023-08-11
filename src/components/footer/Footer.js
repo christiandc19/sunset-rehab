@@ -40,10 +40,11 @@ const Footer = () => {
                   </LinkRoll>
 
                   <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/mental-health">
-                    <p>Programs</p>
-                  </Link>
-                  </LinkRoll>
+                    <Link to="/contact">
+                      <p>Contact</p>
+                    </Link>
+                    </LinkRoll>
+
               </div>
 
             <div className="col">
@@ -57,7 +58,7 @@ const Footer = () => {
 
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to="/treatment">
-                      <p>Our Method</p>
+                      <p>Our Treatment</p>
                     </Link>
                     </LinkRoll>
 
@@ -67,11 +68,6 @@ const Footer = () => {
                     </Link>
                     </LinkRoll>
 
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                    <Link to="/contact">
-                      <p>Contact</p>
-                    </Link>
-                    </LinkRoll>
             </div>
 
             <div className="col">

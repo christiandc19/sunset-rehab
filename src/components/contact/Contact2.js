@@ -96,7 +96,7 @@ const ContactForm = () => {
                             </div>
                             <h1>Address</h1>
                             <div class="text-one">7235 Santa Monica Blvd,</div>
-                            <div class="text-two">Hollywood, CA 90046</div>
+                            <div class="text-two">West Hollywood, CA 90046</div>
                           </div>
 
                           <div class="contact-card phone details">

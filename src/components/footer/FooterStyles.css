@@ -46,7 +46,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 1rem;
+    padding: 3rem 1rem;
     width: 100%;
 }
 
@@ -94,6 +94,7 @@
     color: rgb(218, 219, 219);
     text-transform: uppercase;
     text-align: center;
+    padding: 1rem;
 }
 
 
