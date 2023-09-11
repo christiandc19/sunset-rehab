@@ -42,6 +42,8 @@ const ContactForm = () => {
 
     return (
         <>
+
+        
             <div className="contact-form2-bg">
               
             <div className="contactform2">
@@ -70,10 +72,13 @@ const ContactForm = () => {
                                   <input type="text" name='name' placeholder='Your Name' required />
                                   </div>
                                   <div class="input-box">
-                                  <input type="text" name='email' placeholder='Your Email' required />
+                                  <input type="email" name='email' placeholder='Your Email' required />
                                   </div>
                                   <div class="input-box">
-                                  <input type="text" name='email' placeholder='Your Phone' required />
+                                  <input type="tel" name='telephone' placeholder='Your Phone' required />
+                                  </div>
+                                  <div class="input-box">
+                                  <input type="text" name='subject' placeholder='Subject' required />
                                   </div>
                                   <div class="input-box message-box">
                                   <textarea name="message" rows="4" placeholder="How can we help?" required ></textarea>
