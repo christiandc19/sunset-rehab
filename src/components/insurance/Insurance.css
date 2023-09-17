@@ -40,12 +40,15 @@
 
 @media screen and (max-width:940px) {
 
-.insurance h2 {
-    color: white;
-    font-size: 1.5rem;
+.insurance .insurance-content {
+    top: 50%;
+    width: 100%;
+    right: 0;
 }
+
 
 .insurance h1 {
     font-size: 3rem;
+    text-align: center;
 }
 }

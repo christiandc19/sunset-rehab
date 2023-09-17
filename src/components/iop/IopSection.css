@@ -17,7 +17,7 @@
     font-size: 2rem;
     text-align: center;
     color: rgb(15, 15, 15);
-    padding: 1REM;
+    padding: 1rem;
 }
 
 .iop-wrap-right {
@@ -28,7 +28,7 @@
 
 
 .iop-wrap-right p {
-    font-size: 16px;
+    font-size: 15px;
     text-align: justify;
 }
 
@@ -63,7 +63,7 @@
 
 @media screen and (max-width:1200px) {
     .iop-wrap-right {
-        width: 90%;
+        width: 100%;
     }
 
 

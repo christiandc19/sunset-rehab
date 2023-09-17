@@ -28,7 +28,7 @@
 
 
 .op-wrap-right p {
-    font-size: 16px;
+    font-size: 15px;
     text-align: justify;
 }
 
@@ -63,10 +63,13 @@
 
 @media screen and (max-width:1200px) {
     .op-wrap-right {
-        width: 90%;
+        width: 100%;
     }
 
-
+    .op-wrap-left h1 {
+        font-size: 1.5rem;
+    }
+    
 
 }
 

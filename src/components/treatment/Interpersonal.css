@@ -19,6 +19,7 @@
 
   .interpersonal-content {
     padding: 1rem 0;
+    width: 100%;
   }
 
   .interpersonal-flex {
@@ -37,6 +38,8 @@
   .interpersonal-left h1 {
     padding: 1rem 0;
     text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
   }
 
   .interpersonal-left p {
@@ -61,8 +64,9 @@
     .interpersonal-left {
         width: 100%;
       }
-      .interpersonal-left h1, .interpersonal-left p {
+      .interpersonal-left h1 {
         text-align: center;
+        font-size: 1rem;
       }
 
 

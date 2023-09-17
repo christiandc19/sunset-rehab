@@ -19,6 +19,7 @@
 
   .psychodynamic-content {
     padding: 1rem 0;
+    width: 100%;
   }
 
   .psychodynamic-flex {
@@ -37,6 +38,8 @@
   .psychodynamic-right h1 {
     padding: 1rem 0;
     text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
   } 
   .psychodynamic-right p {
     font-family: 'Poppins', sans-serif;
@@ -65,8 +68,9 @@
         width: 100%;
       }
 
-      .psychodynamic-right h1, .psychodynamic-right p {
+      .psychodynamic-right h1 {
         text-align: center;
+        font-size: 1rem;
       }
 
       .psychodynamic-flex {

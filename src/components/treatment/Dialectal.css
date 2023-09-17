@@ -19,6 +19,7 @@
 
   .dialectal-content {
     padding: 1rem 0;
+    width: 100%;
   }
 
   .dialectal-flex {
@@ -37,13 +38,17 @@
   .dialectal-left h1 {
     padding: 1rem 0;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
   }
 
   .dialectal-left p {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: rgb(65, 66, 66);
-    text-align: justify;  }
+    text-align: justify
+  
+  }
 
   .dialectal-right {
     padding: 1rem;
@@ -60,8 +65,9 @@
     .dialectal-left {
         width: 100%;
       }
-      .dialectal-left h1, .dialectal-left p {
+      .dialectal-left h1 {
         text-align: center;
+        font-size: 1rem;
       }
 
 

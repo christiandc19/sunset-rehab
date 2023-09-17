@@ -39,7 +39,10 @@
   .cognitive-right h1 {
     padding: 1rem 0;
     text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
   } 
+
   .cognitive-right p {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -58,7 +61,7 @@
     border-radius: 1rem;
   }
 
-  .source p{
+  .source p {
     padding: 1rem 0;
     font-size: 10px;
   }
@@ -68,8 +71,8 @@
         width: 100%;
       }
 
-      .cognitive-right h1, .cognitive-right p {
-        text-align: center;
+      .cognitive-right h1 {
+        font-size: 1rem;
       }
 
       .cognitive-flex {

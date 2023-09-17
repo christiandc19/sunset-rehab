@@ -41,7 +41,7 @@ const TreatmentPlan = () => {
                     encounter during recovery process, clear methods of navigating
                     obstacles in recovery, action steps to be taken by the program
                     and/or client to overcome the challenges of recovery.
-            </p>
+                    </p>
 
             <p>Psychodynamic therapy is based on the following key principles:</p>
 

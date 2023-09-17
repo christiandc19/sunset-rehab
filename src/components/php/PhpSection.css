@@ -17,7 +17,7 @@
     font-size: 2rem;
     text-align: center;
     color: rgb(15, 15, 15);
-    padding: 1REM;
+    padding: 1rem;
 }
 
 .php-wrap-right {
@@ -28,7 +28,7 @@
 
 
 .php-wrap-right p {
-    font-size: 16px;
+    font-size: 15px;
     text-align: justify;
 }
 
@@ -61,12 +61,15 @@
 
 /* MEDIA QUERIES */
 
+
 @media screen and (max-width:1200px) {
     .php-wrap-right {
-        width: 90%;
+        width: 100%;
     }
 
-
+    .php-wrap-left h1 {
+        font-size: 1.5rem;
+    }
 
 }
 

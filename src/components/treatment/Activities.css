@@ -20,6 +20,7 @@
   .actvities-content {
     margin: 1rem 0;
     padding: 2rem 0;
+    width: 100%;
   }
 
   .activities-flex {
@@ -55,6 +56,10 @@
   .activities-flex-right img {
     width: 100%;
     border-radius: 1rem;
+  }
+
+  .activities p {
+    text-align: justify;
   }
 
   @media  screen and (max-width:1200px) {
