@@ -1,7 +1,7 @@
 import React from 'react'
 import './Activities.css'
 import { AiFillCheckCircle } from "react-icons/ai";
-import ActivitiesIMG from "../../assets/activities-min.jpg";
+import ActivitiesIMG from "../../assets/activities-min.webp";
 
 const Activities = () => {
   return (

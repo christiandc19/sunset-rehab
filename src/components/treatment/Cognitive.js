@@ -1,6 +1,6 @@
 import React from 'react'
 import './Cognitive.css'
-import COGNITIVE from "../../assets/cognitive.png";
+import COGNITIVE from "../../assets/cognitive.webp";
 
 const Cognitive = () => {
   return (

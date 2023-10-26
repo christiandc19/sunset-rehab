@@ -1,6 +1,6 @@
 import React from 'react'
 import './Dialectal.css'
-import DIALECTAL from "../../assets/dialectal.png";
+import DIALECTAL from "../../assets/dialectal.webp";
 
 const Dialectal = () => {
   return (

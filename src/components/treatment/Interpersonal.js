@@ -1,6 +1,6 @@
 import React from 'react'
 import './Interpersonal.css'
-import INTERPERSONAL from "../../assets/interpersonal.png";
+import INTERPERSONAL from "../../assets/interpersonal.webp";
 import { AiFillCheckCircle } from "react-icons/ai";
 
 const Interpersonal = () => {

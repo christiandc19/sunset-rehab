@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 
 
-import PHP from "../../assets/cognitive.png";
-import IOP from "../../assets/dialectal.png";
-import OP from "../../assets/interpersonal.png";
+import PHP from "../../assets/cognitive.webp";
+import IOP from "../../assets/dialectal.webp";
+import OP from "../../assets/interpersonal.webp";
 
 
 const Menu = () => {
