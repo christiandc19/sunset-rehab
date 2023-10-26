@@ -10,9 +10,9 @@ const Contact = () => {
     return (
       <>
 
-<div className='contact-hero main-menu'>
+<div className='contact main-menu'>
 
-            <div className="contact-hero-content">
+            <div className="contact-content">
             <Fade top>
                     <h1>HAVE SOME QUESTIONS?</h1>
             </Fade>

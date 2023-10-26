@@ -3,19 +3,15 @@
 
 .about {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     position: relative;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: #00000056;
+    background: #0000003a;
   }
   
   .about:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-about-min.jpg') no-repeat center top/cover;
+    background: url('../../assets/menu-bg-about-min.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -24,7 +20,7 @@
 .about .about-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 20%;
     left: 10%;
     padding: 1rem;
 }
@@ -43,12 +39,14 @@
 
 @media screen and (max-width:940px) {
 
-.about h2 {
-    color: white;
-    font-size: 1.5rem;
+.about .about-content {
+    left: 0%;
+    width: 100%;
 }
 
 .about h1 {
     font-size: 3rem;
+    text-align: center;
 }
+
 }

@@ -8,14 +8,14 @@ const AboutSection = () => {
       <div className="about-container">
         <div className="about-content container">
           <div className="about-content-left">
-            <img src={AboutUs} alt="nurse" loading="lazy" />
+            <img src={AboutUs} alt="couple" loading="lazy" />
           </div>
 
           <div className="about-content-right">
             <h1>ABOUT US</h1> <br />
             <h2>
               <i>Get the right care from the people who care</i>
-            </h2>{" "}
+            </h2>
             <br />
             <p>
               Sunset Rehab Treatment Center has refined and well educated staff
@@ -23,7 +23,7 @@ const AboutSection = () => {
               our clients. We are there for you, through every stage of
               recovery. No matter where you’re located, you can reach out and
               get in touch with someone from our staff today
-            </p>{" "}
+            </p>
             <br />
             <p>
               We strives to make sobriety less stressful by focusing on sobriety

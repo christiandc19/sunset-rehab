@@ -123,10 +123,6 @@
 
 @media screen and (max-width: 1200px) {
 
-  .sub__menus__arrows svg, .sub__menus__arrows__full svg {
-    display: none;
-  }
-
 
   .nav-box {
     justify-content: space-between;

@@ -1,34 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 .about-container {
-    padding: 5rem 0;
+    padding: 5rem 0 0 0;
 }
 
 .about-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    padding: 1rem;
 }
 
 .about-content-left {
-    width: 50%;
+    width: 400px;
     text-align: center;
+    margin: auto;
 }
 
 .about-content-left img {
-    width: 80%;
+    width: 100%;
     border-radius: 1rem;
+    margin: auto;
 }
 
 .about-content-right {
-    width: 600px;
+    width: 50%;
     margin: auto;
-    padding: 0 2rem;
 }
 
 
 .about-content-right h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .about-content-right h1 {
@@ -38,9 +39,6 @@
     letter-spacing: 8px; 
 }
 
-.about-content-right p {
-    font-size: 16px;
-}
 
 
 
@@ -50,6 +48,10 @@
 .about-btn {
     width: 100%;
     text-align: center;
+}
+
+.about-btn button:hover {
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .about-cta {
@@ -109,14 +111,21 @@
     transform: scale(0.95);
    }
 
-@media screen and (max-width:1250px)  {
+@media screen and (max-width:940px)  {
+
+    .about-content {
+        flex-wrap: wrap-reverse;
+    }
     .about-content-right {
         width: 100%;
-        padding: 1rem 2rem;
     }
 
-    .about-content-right h1, h2, p {
+    .about-content-right h1, .about-content-right h2 {
         text-align: center;
+    }
+
+    .about-content-right p {
+        text-align: justify;
     }
 
     .about-content-right h2 {
@@ -129,7 +138,5 @@
     .about-content-left {
         width: 100vw;
     }
-    .about-content-left img {
-        padding: 2rem;
-    }
+
 }
